@@ -1,50 +1,52 @@
 import { useEffect, useRef, useState } from "react"
 import { museums, type Museum } from "../data"
 import { Icon } from "./Icon"
+
 const slides = [
   { name: "Museo Nacional Chavín", src: "/images/hero-chavin.webp", caption: "El rostro de una cultura milenaria", position: "70% 48%" },
   { name: "Museo Tumbas Reales de Sipán", src: "/images/sipan.webp", caption: "El esplendor de los antiguos señores", position: "65% 50%" },
   { name: "Museo Lítico de Pukara", src: "/images/pukara.webp", caption: "Historias talladas en piedra", position: "70% 48%" },
   { name: "Museo Cao", src: "/images/museums/g2-cao.webp", caption: "Una mirada al mundo mochica", position: "65% 50%" },
 ].map(s => ({ ...s, museum: museums.find(m => m.name === s.name)! }))
+
 export default function HeroCarousel({ onOpen, onExplore }: { onOpen: (m: Museum) => void; onExplore: (view: "map" | "directory") => void }) {
   const root = useRef<HTMLElement>(null)
   const [index, setIndex] = useState(0)
   const [paused, setPaused] = useState(false)
-  const [reduced, setReduced] = useState(() => matchMedia("(prefers-reduced-motion: reduce)").matches)
-  const [inView, setInView] = useState(true)
   const [pageVisible, setPageVisible] = useState(!document.hidden)
-  const [interacting, setInteracting] = useState(false)
-  const [focused, setFocused] = useState(false)
-  const [loaded, setLoaded] = useState<Set<number>>(new Set([0]))
   const slide = slides[index]
+
   useEffect(() => {
-    const media = matchMedia("(prefers-reduced-motion: reduce)")
-    const motion = () => setReduced(media.matches)
     const visibility = () => setPageVisible(!document.hidden)
-    media.addEventListener("change", motion)
     document.addEventListener("visibilitychange", visibility)
-    const observer = new IntersectionObserver(([entry]) => setInView(entry.isIntersecting), { threshold: .15 })
-    if (root.current) observer.observe(root.current)
-    return () => { observer.disconnect(); media.removeEventListener("change", motion); document.removeEventListener("visibilitychange", visibility) }
+    return () => { document.removeEventListener("visibilitychange", visibility) }
   }, [])
+
   useEffect(() => {
-    // Load the next photograph only after the current frame has been displayed.
-    const next = (index + 1) % slides.length
-    const img = new Image()
-    img.src = slides[next].src
-    img.onload = () => setLoaded(s => new Set([...s, next]))
-    return () => { img.onload = null }
-  }, [index])
-  useEffect(() => {
-    if (paused || reduced || !inView || !pageVisible || interacting || focused) return
-    const timer = setTimeout(() => setIndex(i => (i + 1) % slides.length), 4000)
+    if (paused || !pageVisible) return
+    const timer = setTimeout(() => {
+      setIndex(i => (i + 1) % slides.length)
+    }, 4000)
     return () => clearTimeout(timer)
-  }, [index, paused, reduced, inView, pageVisible, interacting, focused])
-  const move = (direction: number) => { setIndex(i => (i + direction + slides.length) % slides.length); setPaused(true) }
-  return <section ref={root} className="immersive-hero" id="inicio" aria-label="Descubre los museos del Perú" aria-roledescription="carrusel" onMouseEnter={() => setInteracting(true)} onMouseLeave={() => setInteracting(false)} onFocusCapture={() => setFocused(true)} onBlurCapture={e => { if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setFocused(false) }}>
+  }, [index, paused, pageVisible])
+
+  const move = (direction: number) => {
+    setIndex(i => (i + direction + slides.length) % slides.length)
+  }
+
+  return <section ref={root} className="immersive-hero" id="inicio" aria-label="Descubre los museos del Perú" aria-roledescription="carrusel">
     <div className="hero-photographs" aria-hidden="true">
-      {slides.map((s, i) => (i === index || loaded.has(i)) && <img key={s.name} className={index === i ? "is-current" : ""} src={s.src} alt="" style={{ objectPosition: s.position }} fetchPriority={i === 0 ? "high" : "low"} decoding="async" />)}
+      {slides.map((s, i) => (
+        <img
+          key={s.name}
+          className={index === i ? "is-current" : ""}
+          src={s.src}
+          alt=""
+          style={{ objectPosition: s.position }}
+          fetchPriority={i === 0 ? "high" : "low"}
+          decoding="async"
+        />
+      ))}
     </div>
     <div className="hero-shade" />
     <div className="immersive-copy">
@@ -65,9 +67,28 @@ export default function HeroCarousel({ onOpen, onExplore }: { onOpen: (m: Museum
     </div>
     <div className="carousel-controls" aria-label="Controles de las fotografías">
       <span className="slide-number">0{index + 1} <span>/ 04</span></span>
-      <div className="slide-dots">{slides.map((s, i) => <button key={s.name} aria-label={`Mostrar fotografía de ${s.name}`} aria-pressed={i === index} onClick={() => { setIndex(i); setPaused(true) }} />)}</div>
+      <div className="slide-dots">
+        {slides.map((s, i) => (
+          <button
+            key={s.name}
+            aria-label={`Mostrar fotografía de ${s.name}`}
+            aria-pressed={i === index}
+            onClick={() => setIndex(i)}
+          />
+        ))}
+      </div>
       <button onClick={() => move(-1)} aria-label="Fotografía anterior"><span className="previous-arrow"><Icon name="arrow" size={18} /></span></button>
-      <button onClick={() => setPaused(p => !p)} aria-label={paused ? "Reanudar cambio de fotografías" : "Pausar cambio de fotografías"} aria-pressed={paused} disabled={reduced} title={reduced ? "El cambio automático está desactivado por tu preferencia de movimiento reducido" : undefined}>{paused || reduced ? <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="m6 3 9 6-9 6Z" fill="none" stroke="currentColor" /></svg> : <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M6 3v12m6-12v12" stroke="currentColor" strokeWidth="2" /></svg>}</button>
+      <button
+        onClick={() => setPaused(p => !p)}
+        aria-label={paused ? "Reanudar cambio de fotografías" : "Pausar cambio de fotografías"}
+        aria-pressed={paused}
+      >
+        {paused ? (
+          <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="m6 3 9 6-9 6Z" fill="none" stroke="currentColor" /></svg>
+        ) : (
+          <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M6 3v12m6-12v12" stroke="currentColor" strokeWidth="2" /></svg>
+        )}
+      </button>
       <button onClick={() => move(1)} aria-label="Fotografía siguiente"><Icon name="arrow" size={18} /></button>
     </div>
   </section>
