@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Regresión de tamaño del mapa</title>
+<link rel="stylesheet" href="/src/index.css">
+<link rel="stylesheet" href="/src/exhibition.css">
+<!-- Intencionadamente al final: reproduce la carga diferida de MapLibre. -->
+<link rel="stylesheet" href="/node_modules/maplibre-gl/dist/maplibre-gl.css">
+</head>
+<body>
+<output id="result" style="display:block;padding:20px">Comprobando…</output>
+<div class="atlas"><div class="atlas-canvas maplibregl-map"><div class="maplibregl-canvas-container"><canvas class="maplibregl-canvas"></canvas></div></div></div>
+<script>
+window.addEventListener('load', () => {
+  const atlas = document.querySelector('.atlas').getBoundingClientRect();
+  const host = document.querySelector('.atlas-canvas');
+  const rect = host.getBoundingClientRect();
+  const pass = rect.height > 0 && Math.abs(rect.height - atlas.height) < 1 && Math.abs(rect.width - atlas.width) < 1 && getComputedStyle(host).position === 'absolute';
+  document.querySelector('#result').textContent = `${pass ? 'APROBADO' : 'FALLO'} · Contenedor ${Math.round(rect.width)} × ${Math.round(rect.height)} px; atlas ${Math.round(atlas.width)} × ${Math.round(atlas.height)} px.`;
+  document.documentElement.dataset.result = pass ? 'pass' : 'fail';
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,903 @@
+{
+  "checkedAt": "2026-10-28",
+  "method": "Cruce de los 66 registros con el listado público de Visita Virtual del Ministerio de Cultura; fuentes oficiales complementarias de El Brujo, JNE y MUCEN. Se comprueba la respuesta y el HTML del visor, no el funcionamiento interactivo de todas las salas. No encontrar un recurso en estas fuentes no demuestra que no exista.",
+  "portalListing": "https://visitavirtual.cultura.pe/",
+  "museums": [
+    {
+      "id": "sala-de-exhibicion-gilberto-tenorio-ruiz",
+      "name": "Sala de Exhibición Gilberto Tenorio Ruiz",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-arqueologico-de-ancash-augusto-soriano-infante",
+      "name": "Museo Arqueológico de Áncash Augusto Soriano Infante",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-arqueologico-zonal-de-cabana",
+      "name": "Museo Arqueológico Zonal de Cabana",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-antropologia-arqueologia-e-historia-natural-de-ranrahirca",
+      "name": "Museo de Antropología, Arqueología e Historia Natural de Ranrahirca",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-nacional-chavin",
+      "name": "Museo Nacional Chavín",
+      "resources": [
+        {
+          "museum": "Museo Nacional Chavín",
+          "kind": "tour",
+          "title": "Museo Nacional Chavín",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MUNACH/museo-nacional-chavin/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MUNACH/museo-nacional-chavin/index.html",
+          "titleObserved": "Museo Nacional Chav&#237;n - Visita Virtual",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-regional-de-casma-max-uhle",
+      "name": "Museo Regional de Casma Max Uhle",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "sala-de-exhibicion-del-monumento-arqueologico-willkawain",
+      "name": "Sala de Exhibición del Monumento Arqueológico Willkawaín",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-arqueologico-y-antropologico-de-apurimac",
+      "name": "Museo Arqueológico y Antropológico de Apurímac",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-sitio-de-quinua",
+      "name": "Museo de Sitio de Quinua",
+      "resources": [
+        {
+          "museum": "Museo de Sitio de Quinua",
+          "kind": "tour",
+          "title": "Museo de Sitio de Quinua",
+          "url": "https://visitavirtual.cultura.pe/recorridos/museo-quinua/museo-quinua/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/museo-quinua/museo-quinua/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-de-sitio-wari",
+      "name": "Museo de Sitio Wari",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-historico-regional-hipolito-unanue",
+      "name": "Museo Histórico Regional Hipólito Unanue",
+      "resources": [
+        {
+          "museum": "Museo Histórico Regional Hipólito Unanue",
+          "kind": "tour",
+          "title": "Museo Histórico Regional \"Hipólito Unanue\"",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MHRHU/museo-historico-regional-hipolito-unanue/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MHRHU/museo-historico-regional-hipolito-unanue/index.html",
+          "titleObserved": "Museo Hist&#243;rico Regional &quot;Hip&#243;lito Unanue&quot;",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-arqueologico-y-etnografico-del-conjunto-monumental-belen",
+      "name": "Museo Arqueológico y Etnográfico del Conjunto Monumental Belén",
+      "resources": [
+        {
+          "museum": "Museo Arqueológico y Etnográfico del Conjunto Monumental Belén",
+          "kind": "tour",
+          "title": "Ex Hospital de Mujeres - Museo Arqueológico y Etnográfico",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MAECMB/hospital-de-mujeres/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MAECMB/hospital-de-mujeres/index.html",
+          "titleObserved": "Conjunto monumental de Bel&#233;n Ex Hospital de Mujeres",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "salas-de-exhibicion-de-la-ddc-callao",
+      "name": "Salas de Exhibición de la DDC Callao",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-amazonico-andino-qhapaq-nan-quillabamba",
+      "name": "Museo Amazónico Andino Qhapaq Ñan Quillabamba",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-los-pueblos-de-paucartambo",
+      "name": "Museo de los Pueblos de Paucartambo",
+      "resources": [
+        {
+          "museum": "Museo de los Pueblos de Paucartambo",
+          "kind": "tour",
+          "title": "Museo de los Pueblos Paucartambo",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MPP/museo-paucartambo/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MPP/museo-paucartambo/index.html",
+          "titleObserved": "Museo de los Pueblos de Paucartambo",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-de-sitio-manuel-chavez-ballon",
+      "name": "Museo de Sitio Manuel Chávez Ballón",
+      "resources": [
+        {
+          "museum": "Museo de Sitio Manuel Chávez Ballón",
+          "kind": "tour",
+          "title": "Museo de Sitio Manuel Chávez Ballón de Machupicchu",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MSMCB/museo-sitio-manuel-chavez-ballon/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MSMCB/museo-sitio-manuel-chavez-ballon/index.html",
+          "titleObserved": "Museo de Sitio Manuel Ch&#225;vez Ball&#243;n - CUSCO",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-de-sitio-de-chinchero",
+      "name": "Museo de Sitio de Chinchero",
+      "resources": [
+        {
+          "museum": "Museo de Sitio de Chinchero",
+          "kind": "tour",
+          "title": "Museo de Sitio de Chinchero",
+          "url": "https://visitavirtual.cultura.pe/recorridos/SC/museo-sitio-chinchero/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/SC/museo-sitio-chinchero/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-historico-regional-de-cusco",
+      "name": "Museo Histórico Regional de Cusco",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-arqueologico-samuel-humberto-espinoza-lozano",
+      "name": "Museo Arqueológico Samuel Humberto Espinoza Lozano",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-regional-daniel-hernandez-morillo",
+      "name": "Museo Regional Daniel Hernández Morillo",
+      "resources": [
+        {
+          "museum": "Museo Regional Daniel Hernández Morillo",
+          "kind": "tour",
+          "title": "Museo Regional Daniel Hernández Morillo",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MRDHM/daniel-hernandez-morillo/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MRDHM/daniel-hernandez-morillo/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "sala-de-exhibicion-de-la-zona-arqueologica-monumental-de-kotosh",
+      "name": "Sala de Exhibición de la Zona Arqueológica Monumental de Kotosh",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-sitio-julio-c-tello-de-paracas",
+      "name": "Museo de Sitio Julio C. Tello de Paracas",
+      "resources": [
+        {
+          "museum": "Museo de Sitio Julio C. Tello de Paracas",
+          "kind": "tour",
+          "title": "Museo de Sitio Julio C. Tello",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MSJCTP/museo-sitio-julio-cesar-tello/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MSJCTP/museo-sitio-julio-cesar-tello/index.html",
+          "titleObserved": "Museo de Sitio de Paracas - Visita Virtual",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-regional-de-ica-adolfo-bermudez-jenkins",
+      "name": "Museo Regional de Ica Adolfo Bermúdez Jenkins",
+      "resources": [
+        {
+          "museum": "Museo Regional de Ica Adolfo Bermúdez Jenkins",
+          "kind": "tour",
+          "title": "Museo Regional Adolfo Bermúdez Jenkins",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MRI/museo-regional-adolfo-bermudez-jenkins/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MRI/museo-regional-adolfo-bermudez-jenkins/index.html",
+          "titleObserved": "Museo Regional de Ica - Visita Virtual",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "sala-de-exhibicion-del-sitio-arqueologico-tambo-colorado",
+      "name": "Sala de Exhibición del Sitio Arqueológico Tambo Colorado",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-sitio-de-wariwillka",
+      "name": "Museo de Sitio de Wariwillka",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-regional-de-arqueologia-de-junin",
+      "name": "Museo Regional de Arqueología de Junín",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-sitio-de-chan-chan",
+      "name": "Museo de Sitio de Chan Chan",
+      "resources": [
+        {
+          "museum": "Museo de Sitio de Chan Chan",
+          "kind": "tour",
+          "title": "Museo de Sitio Chan Chan",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MSCC/chan-chan/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MSCC/chan-chan/index.html",
+          "titleObserved": "Museo de Sitio de Chan Chan",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-cao",
+      "name": "Museo Cao",
+      "resources": [
+        {
+          "museum": "Museo Cao",
+          "kind": "tour",
+          "title": "El Brujo: ruta clásica y salas del Museo Cao",
+          "url": "https://www.elbrujo.pe/visitantes/ruta-clasica",
+          "source": "https://www.elbrujo.pe/blog/recorridos-virtuales-en-el-brujo",
+          "scope": "Recorrido parcial: incluye las salas 6 y 7 del museo y espacios del complejo arqueológico.",
+          "checkedAt": "2026-10-28",
+          "verification": "Página oficial HTTP 200 con visor integrado; alcance explicado en noticia oficial. Navegación completa no comprobada."
+        },
+        {
+          "museum": "Museo Cao",
+          "kind": "video",
+          "title": "Recorre las salas del Museo Cao",
+          "url": "https://www.elbrujo.pe/visitantes/ruta-museo",
+          "source": "https://www.elbrujo.pe/blog/recorridos-virtuales-en-el-brujo",
+          "scope": "Video del museo publicado por El Brujo.",
+          "checkedAt": "2026-10-28",
+          "verification": "Página oficial HTTP 200 e iframe de YouTube identificado; reproducción no probada."
+        },
+        {
+          "museum": "Museo Cao",
+          "kind": "collection",
+          "title": "Catálogo de piezas arqueológicas de El Brujo",
+          "url": "https://www.elbrujo.pe/catalogo/",
+          "source": "https://www.elbrujo.pe/",
+          "scope": "Piezas de las investigaciones del complejo arqueológico.",
+          "checkedAt": "2026-10-28",
+          "verification": "Enlace oficial y respuesta HTTP obtenida; navegación del catálogo no probada."
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-arqueologico-nacional-bruning",
+      "name": "Museo Arqueológico Nacional Brüning",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-sitio-huaca-chotuna-chornancap",
+      "name": "Museo de Sitio Huaca Chotuna - Chornancap",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-sitio-huaca-rajada-sipan",
+      "name": "Museo de Sitio Huaca Rajada - Sipán",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-tucume",
+      "name": "Museo Túcume",
+      "resources": [
+        {
+          "museum": "Museo Túcume",
+          "kind": "tour",
+          "title": "Museo Túcume",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MST/tucume/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MST/tucume/index.html",
+          "titleObserved": "Museo Túcume - Lambayeque",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-nacional-de-sican",
+      "name": "Museo Nacional de Sicán",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-tumbas-reales-de-sipan",
+      "name": "Museo Tumbas Reales de Sipán",
+      "resources": [
+        {
+          "museum": "Museo Tumbas Reales de Sipán",
+          "kind": "tour",
+          "title": "Museo Tumbas Reales de Sipán",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MTRS/museo-tumbas-reales-sipan/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MTRS/museo-tumbas-reales-sipan/index.html",
+          "titleObserved": "",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-jose-carlos-mariategui",
+      "name": "Museo José Carlos Mariátegui",
+      "resources": [
+        {
+          "museum": "Museo José Carlos Mariátegui",
+          "kind": "tour",
+          "title": "Exposición \"José Carlos Mariátegui - Un peruano para el siglo XXI\"",
+          "url": "https://visitavirtual.cultura.pe/recorridos/CMJM/casa-museo-jose-carlos-mariategui/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/CMJM/casa-museo-jose-carlos-mariategui/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "lugar-de-la-memoria-la-tolerancia-y-la-inclusion-social",
+      "name": "Lugar de la Memoria, la Tolerancia y la Inclusión Social",
+      "resources": [
+        {
+          "museum": "Lugar de la Memoria, la Tolerancia y la Inclusión Social",
+          "kind": "tour",
+          "title": "Lugar de la Memoria, la Tolerancia y la Inclusión Social: Exposición Permanente",
+          "url": "https://visitavirtual.cultura.pe/recorridos/LUM/lum-exposicion-permanente/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP 200 y visor identificado. Revisión de navegador: portada, botón Empezar y panorama inicial visibles. No se recorrieron todas las salas.",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/LUM/lum-exposicion-permanente/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-de-arte-italiano",
+      "name": "Museo de Arte Italiano",
+      "resources": [
+        {
+          "museum": "Museo de Arte Italiano",
+          "kind": "tour",
+          "title": "Museo de Arte Italiano",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MAI/museo-arte-italiano/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MAI/museo-arte-italiano/index.html",
+          "titleObserved": "Museo de Arte Italiano",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-de-sitio-arturo-jimenez-borja-puruchuco",
+      "name": "Museo de Sitio Arturo Jiménez Borja - Puruchuco",
+      "resources": [
+        {
+          "museum": "Museo de Sitio Arturo Jiménez Borja - Puruchuco",
+          "kind": "tour",
+          "title": "Museo de Sitio Arturo Jiménez Borja - Puruchuco",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MSPUR/museo-sitio-arturo-jimenez-borja-puruchuco/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MSPUR/museo-sitio-arturo-jimenez-borja-puruchuco/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-de-sitio-el-mirador-cerro-san-cristobal",
+      "name": "Museo de Sitio El Mirador Cerro San Cristóbal",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-sitio-pucllana",
+      "name": "Museo de Sitio Pucllana",
+      "resources": [
+        {
+          "museum": "Museo de Sitio Pucllana",
+          "kind": "tour",
+          "title": "Museo de Sitio Pucllana",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MP/museo-pucllana/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MP/museo-pucllana/index.html",
+          "titleObserved": "Huaca Pucllana",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-de-sitio-huallamarca",
+      "name": "Museo de Sitio Huallamarca",
+      "resources": [
+        {
+          "museum": "Museo de Sitio Huallamarca",
+          "kind": "tour",
+          "title": "Museo de Sitio de Huallamarca",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MSH/museo-sitio-huallamarca/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MSH/museo-sitio-huallamarca/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-pachacamac",
+      "name": "Museo Pachacamac",
+      "resources": [
+        {
+          "museum": "Museo Pachacamac",
+          "kind": "tour",
+          "title": "Museo de Sitio Pachacamac",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MSPAC/museo-sitio-pachacamac/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MSPAC/museo-sitio-pachacamac/index.html",
+          "titleObserved": "Museo de Sitio Pachacamac",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-nacional-de-arqueologia-antropologia-e-historia-del-peru",
+      "name": "Museo Nacional de Arqueología, Antropología e Historia del Perú",
+      "resources": [
+        {
+          "museum": "Museo Nacional de Arqueología, Antropología e Historia del Perú",
+          "kind": "tour",
+          "title": "Museo Nacional de Arqueología, Antropología e Historia del Perú",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MNAAHP/museo-nacional-arqueologia-antropologia-historia-peru/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MNAAHP/museo-nacional-arqueologia-antropologia-historia-peru/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-nacional-de-la-cultura-peruana",
+      "name": "Museo Nacional de la Cultura Peruana",
+      "resources": [
+        {
+          "museum": "Museo Nacional de la Cultura Peruana",
+          "kind": "tour",
+          "title": "Museo Nacional de la Cultura Peruana",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MNCP/museo-nacional-cultura-peruana/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MNCP/museo-nacional-cultura-peruana/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-electoral-y-de-la-democracia",
+      "name": "Museo Electoral y de la Democracia",
+      "resources": [
+        {
+          "museum": "Museo Electoral y de la Democracia",
+          "kind": "tour",
+          "title": "Visita virtual del Museo Electoral",
+          "url": "https://museoelectoral.jne.gob.pe/visita2/index.html",
+          "source": "https://museoelectoral.jne.gob.pe/",
+          "scope": "Visita en 3D publicada por el JNE. Requiere un navegador compatible con WebGL y puede tardar en cargar.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Enlace visita2/index.html en la página oficial",
+          "httpStatus": 200,
+          "finalUrl": "https://museoelectoral.jne.gob.pe/visita2/index.html",
+          "titleObserved": "Unity WebGL Player | JNE Museo Unity",
+          "viewerDetected": true,
+          "verification": "HTTP 200 y visor Unity WebGL identificado; ejecución no comprobada en GPU"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-grafico-el-peruano",
+      "name": "Museo Gráfico El Peruano",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-amazonico",
+      "name": "Museo Amazónico",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-sitio-de-narihuala",
+      "name": "Museo de Sitio de Narihualá",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "sala-de-oro-del-museo-municipal-vicus",
+      "name": "Sala de Oro del Museo Municipal Vicús",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-litico-de-pukara",
+      "name": "Museo Lítico de Pukara",
+      "resources": [
+        {
+          "museum": "Museo Lítico de Pukara",
+          "kind": "tour",
+          "title": "Museo Lítico de Pukara",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MLP/museo-litico-pukara/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MLP/museo-litico-pukara/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "templo-museo-nuestra-senora-de-la-asuncion",
+      "name": "Templo Museo Nuestra Señora de la Asunción",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "templo-museo-san-juan-de-letran",
+      "name": "Templo Museo San Juan de Letrán",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-departamental-san-martin",
+      "name": "Museo Departamental San Martín",
+      "resources": [
+        {
+          "museum": "Museo Departamental San Martín",
+          "kind": "tour",
+          "title": "Museo Departamental de San Martín",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MDSM/museo-departamental-san-martin/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MDSM/museo-departamental-san-martin/index.html",
+          "titleObserved": "Museo Departamental de San Mart&#237;n",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-de-sitio-de-cabeza-de-vaca-gran-chilimasa",
+      "name": "Museo de Sitio de Cabeza de Vaca Gran Chilimasa",
+      "resources": [
+        {
+          "museum": "Museo de Sitio de Cabeza de Vaca Gran Chilimasa",
+          "kind": "tour",
+          "title": "Museo de Sitio Cabeza de Vaca",
+          "url": "https://visitavirtual.cultura.pe/recorridos/cabeza-de-vaca/museo-sitio-cabeza-de-vaca/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/cabeza-de-vaca/museo-sitio-cabeza-de-vaca/index.html",
+          "viewerDetected": true,
+          "initialError": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-de-la-catedral-de-arequipa",
+      "name": "Museo de la Catedral de Arequipa",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-contisuyo",
+      "name": "Museo Contisuyo",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-schafferer",
+      "name": "Museo Schafferer",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "sala-de-exhibicion-de-patrimonio-cultural-material-e-inmaterial-de-madre-de-dios",
+      "name": "Sala de Exhibición de Patrimonio Cultural Material e Inmaterial de Madre de Dios",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-regional-de-ucayali-zoologico-parque-natural-de-pucallpa",
+      "name": "Museo Regional de Ucayali Zoológico Parque Natural de Pucallpa",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-historico-regional-de-tacna",
+      "name": "Museo Histórico Regional de Tacna",
+      "resources": [
+        {
+          "museum": "Museo Histórico Regional de Tacna",
+          "kind": "tour",
+          "title": "Museo Histórico Regional de Tacna",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MHRT/museo-historico-regional-tacna/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MHRT/museo-historico-regional-tacna/index.html",
+          "titleObserved": "Museo Hist&#243;rico Regional - Tacna",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-de-sitio-las-peanas",
+      "name": "Museo de Sitio Las Peañas",
+      "resources": [
+        {
+          "museum": "Museo de Sitio Las Peañas",
+          "kind": "tour",
+          "title": "Museo de Sitio \"Las Peañas\"",
+          "url": "https://visitavirtual.cultura.pe/recorridos/MSLP/museo-sitio-las-peanas/index.html",
+          "source": "https://visitavirtual.cultura.pe/",
+          "scope": "Recorrido de la exposición publicada por el Ministerio de Cultura. Puede reflejar una museografía anterior.",
+          "checkedAt": "2026-10-28",
+          "discovery": "Listado público del portal y plantilla oficial de enlaces de scripts.js",
+          "httpStatus": 200,
+          "finalUrl": "https://visitavirtual.cultura.pe/recorridos/MSLP/museo-sitio-las-peanas/index.html",
+          "titleObserved": "Museo de Sitio &quot;Las Pea&#241;as&quot;",
+          "viewerDetected": true,
+          "verification": "HTTP y HTML del visor; interacción panorámica no probada individualmente"
+        }
+      ],
+      "result": "Recursos documentados"
+    },
+    {
+      "id": "museo-del-ejercito-fortaleza-real-felipe",
+      "name": "Museo del Ejército Fortaleza Real Felipe",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-municipal-carlos-dreyer",
+      "name": "Museo Municipal Carlos Dreyer",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-antropologico-de-la-escuela-profesional-de-antropologia-una-puno",
+      "name": "Museo Antropológico de la Escuela Profesional de Antropología - UNA Puno",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-de-culturas-indigenas-amazonicas",
+      "name": "Museo de Culturas Indígenas Amazónicas",
+      "resources": [],
+      "result": "Sin recurso específico localizado en las fuentes revisadas; se ofrece la ficha documental de la guía o portal institucional."
+    },
+    {
+      "id": "museo-central-mucen",
+      "name": "Museo Central MUCEN",
+      "resources": [
+        {
+          "museum": "Museo Central MUCEN",
+          "kind": "collection",
+          "title": "Explora las colecciones del MUCEN",
+          "url": "https://catalogomucen.bcrp.gob.pe/museo/",
+          "source": "https://mucen.bcrp.gob.pe/mucen/museos/museo-central",
+          "scope": "Catálogo digital del Banco Central de Reserva del Perú.",
+          "checkedAt": "2026-10-28",
+          "verification": "Enlace en fuente oficial indexada; la comprobación automática recibió una pantalla de protección antibots, no pudo validar su funcionamiento."
+        },
+        {
+          "museum": "Museo Central MUCEN",
+          "kind": "audio",
+          "title": "Arte tradicional: audioguía del Museo Central",
+          "url": "https://mucen.bcrp.gob.pe/mucen/audios/articulo/escucha-audioguia-museo-central-arte-tradicional",
+          "source": "https://mucen.bcrp.gob.pe/mucen/audios/guias",
+          "scope": "Escucha las historias de la colección de arte tradicional.",
+          "checkedAt": "2026-10-28",
+          "verification": "Enlace en fuente oficial indexada; la comprobación automática recibió una pantalla de protección antibots, reproducción no validada."
+        }
+      ],
+      "result": "Recursos documentados"
+    }
+  ]
+}
