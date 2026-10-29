@@ -38,7 +38,7 @@ export default function HeroCarousel({ onOpen, onExplore }: { onOpen: (m: Museum
   }, [index])
   useEffect(() => {
     if (paused || reduced || !inView || !pageVisible || interacting || focused) return
-    const timer = setTimeout(() => setIndex(i => (i + 1) % slides.length), 8000)
+    const timer = setTimeout(() => setIndex(i => (i + 1) % slides.length), 4000)
     return () => clearTimeout(timer)
   }, [index, paused, reduced, inView, pageVisible, interacting, focused])
   const move = (direction: number) => { setIndex(i => (i + direction + slides.length) % slides.length); setPaused(true) }
