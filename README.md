@@ -2,6 +2,22 @@
 
 Prototipo de exploración cultural creado a partir del proyecto original de Figma Make. React + TypeScript + Vite + Tailwind CSS + MapLibre GL JS. No necesita backend, cuenta de mapas ni clave de API.
 
+## Explora Puno · versión local
+
+Ejecutar **`npm run dev`** y abrir **`http://127.0.0.1:5173/?seccion=puno`**. Desarrollo y producción usan exactamente la misma selección: **32 fichas con dos fotografías, 64 en total**. Cancha Cancha conserva los dos adjuntos solicitados, con marcas y crédito. Los pies y el visor muestran créditos compactos. `npm run dev:revision` sigue disponible en el puerto 5174 con los mismos datos.
+
+Las variantes web seleccionadas están en `public/images/puno` y sus datos en `src/puno-content.json`. La procedencia, créditos, modificaciones y estados reales de autorización se conservan también en `public/puno-photo-evidence.json`. El responsable del sitio decidió expresamente publicar esta selección: **61 fotografías mantienen autorización pendiente y tres tienen licencia documentada**. Esa decisión no concede derechos de los autores ni convierte las fotografías pendientes en licenciadas. No hay filtros por autorización ni sustituciones distintas según el modo de ejecución.
+
+En la rama `patrimonio-puno` se incorpora un acceso «Explora Puno» en la navegación. Abre `http://localhost:5173/?seccion=puno` después de ejecutar `npm run dev`. Las provincias y fichas conservan su ruta en la URL; para probar una ficha completa, usa `?seccion=puno&provincia=2108&lugar=tinajani` o `?seccion=puno&provincia=2101&lugar=inka-uyu`.
+
+Incluye 13 provincias, selector accesible y 32 fichas respaldadas en 11 provincias, más cinco formaciones agrupadas en Tinajani. Lampa tiene cuatro lugares, con fichas independientes para las réplicas y para la capilla y el osario. Las listas no llevan fotografías. Moho y Yunguyo no reciben lugares ajenos al PDF. La documentación privada, el PDF original, ZIP, capturas y temporales se conservan solo localmente, excluidos de Git y del despliegue. La instalación, desarrollo, pruebas y compilación no dependen de esos archivos.
+
+El mapa provincial utiliza MapLibre con terreno sombreado, agua y límites reales simplificados en conjunto para conservar bordes compartidos. Reutiliza los servicios del proyecto y requiere internet y WebGL2; conserva el selector accesible si falla la cartografía. `src/puno-content.json` y `public/maps/puno-provinces.geojson` contienen exclusivamente la información pública necesaria; las imágenes preparadas están en `public/images/puno`. No se copia `documentacion/` al sitio. El estilo y las vistas del mapa nacional no se modifican.
+
+El diseño conserva distribución 70/30, mapa restringido a Puno, blanco piedra, filas compactas, fotos a proporción natural y visor centrado de pantalla completa.
+
+`scripts/prepare-puno-selection.mjs` es una herramienta editorial opcional para importar los recursos elegidos desde el archivo privado conservando sus metadatos. No forma parte de `npm test`, `npm run check` ni `npm run build`. El generador histórico `prepare-puno.py` no debe utilizarse para restablecer selecciones anteriores.
+
 ## Abrir en Windows / VS Code
 
 1. Descomprime todo el ZIP.
@@ -25,7 +41,7 @@ npm run build
 npm run preview
 ```
 
-La carpeta `dist` incluida contiene la versión compilada. Es la carpeta que se publica en un alojamiento estático. `netlify.toml` configura `npm run build`, Node 24 y el directorio `dist`. No se ha realizado un despliegue público ni se ha conectado una cuenta de Netlify.
+La carpeta `dist` contiene la versión compilada y se excluye de Git. Es la carpeta que publica el alojamiento estático. `netlify.toml` configura `npm run build`, Node 24 y el directorio `dist`.
 
 ## Qué incluye esta revisión · 28 de octubre de 2026
 
@@ -74,10 +90,10 @@ npm run build
 ```
 
 - TypeScript y compilación de producción comprobados.
-- Nueve pruebas: 66 registros/25 territorios, tildes, filtros combinados, orden sin mutaciones, enlace Maps, geometrías, fotografías, búsqueda por palabras/temas y contenido/recursos con procedencia.
+- 18 pruebas: nueve del catálogo nacional, seis de datos y navegación de Puno y tres de integración de la revisión local. Sin la documentación privada pasan 17 y se omite explícitamente solo la prueba de sus galerías opcionales. TypeScript y build funcionan sin esa carpeta y generan los mismos archivos.
 - Revisión en navegador de escritorio y vista móvil embebida de 390 × 844: portada, selección de imágenes, menú, búsqueda con botón/Enter, resultados vacíos, recorridos, filtros, fichas, Escape y ausencia de desbordamiento horizontal.
 - Se comprobó la selección de Callao en la recuperación accesible y la ausencia de «Mapa local».
-- El navegador remoto de revisión no dispone de WebGL2. **No se pudo verificar visualmente el relieve 3D ni el plano en ese navegador**. Debe comprobarse en el equipo compatible donde ya funcionaba el mapa antes de una presentación pública.
+- En la revisión final local con Chrome se comprobaron el mapa nacional y sus controles Plano / Relieve 3D. El mapa provincial se verificó en escritorio y móvil, con acceso a las 13 provincias, distribución 70/30 en escritorio, restricciones regionales y reencuadre al cambiar de tamaño.
 
 ## Alcance de la información y los enlaces
 

@@ -19,3 +19,13 @@ logs/
 # beside it.
 /.plugins/
 /.opencode-skills/
+
+# Material de trabajo local: conservar en disco, nunca incluir en la entrega.
+/documentacion/
+/documentacion.zip
+MUSEOOOO-fusionado.pdf
+/capturas/
+/capturas-*/
+/screenshots/
+/.qa/
+*.tmp

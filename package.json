@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:revision": "vite --mode revision --host 127.0.0.1 --port 5174 --strictPort",
     "build": "tsc --noEmit && node scripts/clean-dist.mjs && vite build",
     "preview": "vite preview",
     "check": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test scripts/catalog.test.ts"
+    "test": "node --experimental-strip-types --test scripts/*.test.ts"
   },
   "dependencies": {
     "maplibre-gl": "6.15.0",
