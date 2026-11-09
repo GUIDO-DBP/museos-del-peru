@@ -1,0 +1,121 @@
+/* All palette and layout changes belong to Puno; the rest of the site keeps its tokens. */
+body:has(.puno-section) { background: #f7f8f6; }
+.puno-section { --paper: #f7f8f6; --white: #fff; --line: #dce2dd; --ink: #23392e; --muted: #626e65; --rust: #93482f; padding-top: 32px; padding-bottom: 48px; min-height: calc(100svh - 96px); color: var(--ink); background: var(--paper); }
+.puno-intro { display: flex; align-items: end; justify-content: space-between; gap: 26px; padding-bottom: 24px; border-bottom: 1px solid var(--line); margin-bottom: 24px; }
+.puno-section h1 { font: 500 clamp(40px, 4.5vw, 62px)/1.08 var(--serif); letter-spacing: -.03em; max-width: 1050px; }
+.puno-section h1 em { color: var(--rust); }
+.puno-section h1:focus, .puno-province-heading h2:focus { outline: none; }
+.puno-intro .eyebrow { margin-bottom: 9px; }
+.puno-intro > p { color: var(--muted); font-size: 17px; padding-bottom: 3px; }
+.puno-explorer-layout { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 3fr); align-items: start; border: 1px solid var(--line); background: var(--white); }
+.puno-map { min-width: 0; background: #eef2ee; }
+.puno-map-placeholder { height: 724px; padding: 24px; background: #eef2ee; }
+.puno-map-kicker { display: flex; justify-content: space-between; gap: 16px; color: var(--dark); font-size: 11px; letter-spacing: .1em; padding: 17px 20px; }
+.puno-map-kicker span:last-child { letter-spacing: 0; color: var(--muted); }
+.puno-map .puno-terrain { height: 610px; position: relative; overflow: hidden; isolation: isolate; }
+/* Explicit size and positioning beat the asynchronously loaded MapLibre stylesheet. */
+.puno-terrain > .puno-terrain-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.puno-terrain-label { padding: 3px 6px; background: #ffffffeb; color: #243d30; box-shadow: 0 1px 3px #152b2326; border: 1px solid #fff; border-radius: 3px; font: 600 12px/1.2 var(--sans); max-width: 106px; text-align: center; cursor: pointer; }
+.puno-terrain-label[aria-pressed=true] { color: #8e3823; border-color: #a1442c; background: #fffdfa; }
+.puno-terrain-label:hover { border-color: #93482f; }
+.puno-terrain-label:focus-visible { outline: 3px solid #93482f; outline-offset: 2px; }
+.puno-map-reset { position: absolute; bottom: 12px; left: 12px; background: #fffefbf2; color: #244132; box-shadow: 0 1px 5px #233b2520; border: 1px solid #c9d4cc; border-radius: 3px; font-size: 12px; display: flex; align-items: center; gap: 7px; min-height: 38px; padding: 7px 10px; }
+.puno-terrain-message { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 28px; background: #eef2eefa; color: #526859; text-align: center; font-size: 16px; }
+.puno-map-warning { padding: 10px 16px; font-size: 12px; color: #6e4b39; background: #f2f1eb; }
+.puno-map-warning button { text-decoration: underline; }
+.puno-map figcaption { padding: 9px 14px; color: #59675d; font-size: 11px; line-height: 1.5; }
+.puno-map-attribution { margin: 0; }
+.puno-map-info { margin-top: 3px; }
+.puno-map-info summary { cursor: pointer; width: fit-content; padding: 4px 0; font-size: 12px; }
+.puno-map-info summary:focus-visible { outline: 2px solid var(--rust); outline-offset: 3px; }
+.puno-map-info p { margin: 8px 0 3px; }
+.puno-province-panel { padding: 20px 18px; min-width: 0; }
+.puno-selector { display: grid; gap: 8px; color: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: .12em; }
+.puno-selector select { width: 100%; min-height: 45px; padding: 9px 10px; background: #fff; color: var(--ink); border: 1px solid #b7c6bd; border-radius: 2px; font-size: 16px; letter-spacing: normal; }
+.puno-province-heading { padding: 23px 0 16px; border-bottom: 1px solid var(--line); }
+.puno-province-heading .eyebrow { margin-bottom: 6px; font-size: 10px; }
+.puno-province-heading h2 { font: 600 34px/1.1 var(--serif); scroll-margin-top: 110px; }
+.puno-province-heading > p:last-child { color: var(--muted); margin-top: 7px; font-size: 13px; }
+.puno-place-list { padding: 0; margin: 0; list-style: none; }
+.puno-place-list li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 5px 12px; padding: 15px 0; border-bottom: 1px solid var(--line); }
+.puno-place-list li:last-child { border-bottom: 0; }
+.puno-place-list li > div { min-width: 0; flex: 1 1 170px; overflow-wrap: anywhere; }
+.puno-place-list li > div > span { font-size: 9px; text-transform: uppercase; letter-spacing: .08em; color: var(--rust); }
+.puno-place-list h3 { font: 600 23px/1.12 var(--serif); margin: 5px 0; }
+.puno-place-list p { color: var(--muted); font-size: 12px; }
+.puno-place-list .text-link { flex-shrink: 0; gap: 7px; font-size: 13px; min-height: 40px; padding: 7px 0; border-color: #c2ccc4; }
+.puno-empty { display: grid; justify-items: start; gap: 14px; padding: 30px 0; color: var(--muted); font-size: 16px; }
+.puno-empty svg { color: var(--rust); }
+.puno-scope { margin-top: 18px; color: var(--muted); font-size: 12px; }
+.puno-place-navigation { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 23px; }
+.puno-breadcrumbs { display: flex; gap: 10px; flex-wrap: wrap; font-size: 13px; }
+.puno-back { gap: 7px; border: 0; color: var(--rust); font-size: 13px; min-height: 40px; padding: 5px 0; }
+.puno-back-arrow { transform: rotate(180deg); display: inline-flex; }
+.puno-place-heading { padding-bottom: 20px; margin-bottom: 22px; }
+.puno-place-heading .eyebrow { margin-bottom: 9px; font-size: 10px; }
+.puno-place h1 { font-size: clamp(35px, 3.9vw, 54px); }
+.puno-location { display: flex; gap: 7px; align-items: center; color: #62746a; margin-top: 11px; font-size: 15px; }
+.puno-photo-pair { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 22px; align-items: start; }
+.puno-photo-single { grid-template-columns: minmax(0, 1fr); margin-inline: auto; }
+.puno-photo-pair figure { min-width: 0; }
+.puno-enlarge { display: block; position: relative; width: 100%; background: transparent; padding: 0; overflow: hidden; border: 0; border-radius: 2px; }
+.puno-enlarge img { display: block; width: 100%; height: auto; }
+.puno-enlarge > span { position: absolute; right: 11px; bottom: 11px; display: grid; place-items: center; width: 34px; height: 34px; color: #fff; background: #152c23cc; border-radius: 3px; }
+.puno-enlarge:hover > span { background: #93482f; }
+.puno-photo-pair figcaption { font-size: 12px; color: var(--muted); line-height: 1.5; padding-top: 10px; }
+.puno-photo-pair figcaption p { color: var(--ink); font-size: 14px; margin-bottom: 4px; }
+.puno-photo-caption { font-weight: 600; }
+.puno-photo-credit { font-size: 12px; line-height: 1.5; }
+.puno-credit-details { display: inline; margin-left: 8px; }
+.puno-credit-details summary { display: inline; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.puno-credit-details > div { margin-top: 6px; font-size: 12px; font-weight: 400; }
+.puno-credit-details summary:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.puno-photo-pending { display: flex; align-items: center; gap: 11px; padding: 16px 18px; background: #edf1ed; color: var(--muted); font-size: 14px; border-left: 2px solid #bdcbbf; }
+.puno-about { margin: 32px auto 0; max-width: 900px; padding: 28px 34px; background: #fff; border: 1px solid var(--line); border-radius: 3px; box-shadow: 0 2px 10px #23392e08; }
+.puno-about h2 { font: 600 30px/1.2 var(--serif); letter-spacing: -.02em; text-align: center; }
+.puno-place-description { margin-top: 12px; font-size: 18px; line-height: 1.7; }
+.puno-place-description p { line-height: inherit; }
+.puno-place-description p + p { margin-top: 14px; }
+.puno-review-note { margin-bottom: 18px; color: var(--rust); font-size: 12px; line-height: 1.5; }
+.puno-sources { margin-top: 13px; font-size: 12px; color: var(--muted); line-height: 1.7; }
+.puno-place-footer { border-top: 1px solid var(--line); padding-top: 15px; margin-top: 32px; font: 500 16px var(--serif); color: var(--muted); }
+/* Tailwind's zero margin removed native dialog centering. The viewer now occupies
+   the viewport, while the image itself is centered independently of controls. */
+.puno-photo-dialog { position: fixed; inset: 0; width: 100vw; height: 100dvh; max-width: none; max-height: none; padding: 0; margin: 0; border: 0; border-radius: 0; overflow: hidden; background: transparent; color: #fff; box-shadow: none; }
+.puno-photo-dialog::backdrop { background: #000e; }
+.puno-photo-dialog > img { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: auto; height: auto; max-width: calc(100vw - 48px); max-height: calc(100dvh - 140px); object-fit: contain; }
+.puno-viewer-close { position: absolute; top: 15px; right: 17px; width: 46px; height: 46px; display: grid; place-items: center; background: #0007; border-radius: 50%; z-index: 1; color: #fff; }
+.puno-viewer-credit { position: absolute; left: 24px; right: 24px; bottom: 17px; margin: 0 auto; max-width: 1040px; font-size: 12px; line-height: 1.6; color: #f0f2ee; text-align: center; max-height: 85px; overflow: auto; }
+.puno-viewer-credit > p { margin: 0 0 4px; }
+.puno-photo-dialog a { color: inherit; }
+.puno-photo-dialog button:focus-visible, .puno-photo-dialog a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+@media(max-width: 1000px) {
+  .puno-province-panel { padding: 20px 14px; }
+  .puno-intro > p { font-size: 15px; }
+  .puno-place-list h3 { font-size: 22px; }
+}
+@media(max-width: 760px) {
+  .puno-section { padding-top: 23px; }
+  .puno-intro { align-items: start; flex-direction: column; gap: 14px; padding-bottom: 21px; }
+  .puno-explorer-layout { grid-template-columns: 1fr; }
+  .puno-map .puno-terrain { height: 510px; }
+  .puno-map-placeholder { height: 644px; }
+  .puno-map-kicker { padding: 14px 16px; }
+  .puno-terrain-label { font-size: 11px; padding: 3px 4px; max-width: 89px; }
+  .puno-province-panel { padding: 22px 20px; }
+  .puno-place-list h3 { font-size: 22px; }
+  .puno-place-list .text-link { min-height: 44px; }
+  .puno-place-navigation { align-items: start; flex-direction: column; gap: 3px; margin-bottom: 16px; }
+  .puno-back { min-height: 36px; }
+  .puno-photo-pair { grid-template-columns: 1fr; gap: 25px; }
+  .puno-place-heading { padding-bottom: 0; margin-bottom: 22px; }
+  .puno-place-description { font-size: 17px; }
+  .puno-about h2 { font-size: 29px; }
+  .puno-about { margin-top: 29px; padding: 23px 20px; }
+  .puno-photo-dialog > img { max-width: calc(100vw - 24px); max-height: calc(100dvh - 160px); }
+  .puno-viewer-credit { left: 18px; right: 18px; bottom: 15px; font-size: 12px; max-height: 108px; }
+}
+@media(max-height: 500px) {
+  .puno-photo-dialog > img { max-height: calc(100dvh - 100px); }
+  .puno-viewer-credit { font-size: 11px; max-height: 40px; bottom: 6px; }
+}

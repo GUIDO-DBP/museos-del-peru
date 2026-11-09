@@ -11,7 +11,10 @@ import { Icon, Mark } from "./components/Icon"
 import MuseumCard, { MuseumImage } from "./components/MuseumCard"
 import HeroCarousel from "./components/HeroCarousel"
 import DetailModal from "./components/DetailModal"
+import { nationalHref, punoHref } from "./puno-navigation"
+import { navigateLocal, useLocationSearch } from "./usePunoNavigation"
 const PeruMap = lazy(() => import("./components/PeruMap"))
+const PunoExplorer = lazy(() => import("./components/PunoExplorer"))
 function initialState(): Filters {
   const p = new URLSearchParams(location.search)
   return {
@@ -23,6 +26,8 @@ function initialState(): Filters {
   }
 }
 export default function App() {
+  const locationSearch = useLocationSearch()
+  const punoActive = new URLSearchParams(locationSearch).get("seccion") === "puno"
   const [filters, setFilters] = useState<Filters>(initialState),
     [mode, setMode] = useState<"map" | "directory">(() =>
       new URLSearchParams(location.search).get("vista") === "directorio"
@@ -86,7 +91,8 @@ export default function App() {
     return () => io.disconnect()
   }, [mode])
   useEffect(() => {
-    const p = new URLSearchParams()
+    const p = new URLSearchParams(location.search)
+    for (const key of ["q", "region", "tipo", "virtual", "orden", "vista"]) p.delete(key)
     if (filters.search) p.set("q", filters.search)
     if (filters.department) p.set("region", filters.department)
     if (filters.type) p.set("tipo", filters.type)
@@ -95,7 +101,7 @@ export default function App() {
     if (mode === "directory") p.set("vista", "directorio")
     const q = p.toString()
     history.replaceState(
-      null,
+      history.state,
       "",
       `${location.pathname}${q ? "?" + q : ""}${location.hash}`,
     )
@@ -117,6 +123,14 @@ export default function App() {
     setMenu(false)
     if (view === "map") setMountMap(true)
   }
+  const siteSection = (event: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    if (!punoActive) return
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return
+    event.preventDefault()
+    navigateLocal(nationalHref(location.href, id))
+    setMenu(false)
+    requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ behavior: "instant", block: "start" }))
+  }
   const submitSearch = () => {
     explore("directory")
     requestAnimationFrame(() => {
@@ -129,13 +143,14 @@ export default function App() {
     filters.department || filters.type || filters.search || filters.virtual
   return (
     <>
-      <a className="skip-link" href="#explorar">
+      <a className="skip-link" href={punoActive ? "#explora-puno" : "#explorar"}>
         Saltar a la exploración
       </a>
       <header className="site-header">
         <a
           className="brand"
-          href="#inicio"
+          href={nationalHref(location.href, "inicio")}
+          onClick={e => siteSection(e, "inicio")}
           aria-label="Museos del Perú, inicio"
         >
           <Mark />
@@ -148,23 +163,30 @@ export default function App() {
           className={menu ? "nav open" : "nav"}
           aria-label="Navegación principal"
         >
-          <a href="#explorar" onClick={() => explore("map")}>
+          <a href={nationalHref(location.href, "explorar")} onClick={e => { siteSection(e, "explorar"); explore("map") }}>
             Explorar el mapa
           </a>
-          <a href="#explorar" onClick={() => explore("directory")}>
+          <a href={nationalHref(location.href, "explorar")} onClick={e => { siteSection(e, "explorar"); explore("directory") }}>
             Museos
           </a>
-          <a href="#recorridos" onClick={() => setMenu(false)}>
+          <a href={punoHref(location.href)} aria-current={punoActive ? "page" : undefined} onClick={e => {
+            if (e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return
+            e.preventDefault()
+            setMenu(false)
+            navigateLocal(punoHref(location.href))
+            window.scrollTo({ top: 0, behavior: "instant" })
+          }}>Explora Puno</a>
+          <a href={nationalHref(location.href, "recorridos")} onClick={e => { siteSection(e, "recorridos"); setMenu(false) }}>
             Recorridos virtuales
           </a>
-          <a href="#proyecto" onClick={() => setMenu(false)}>
+          <a href={nationalHref(location.href, "proyecto")} onClick={e => { siteSection(e, "proyecto"); setMenu(false) }}>
             El proyecto
           </a>
         </nav>
         <a
           className="header-action"
-          href="#explorar"
-          onClick={() => explore("map")}
+          href={nationalHref(location.href, "explorar")}
+          onClick={e => { siteSection(e, "explorar"); explore("map") }}
         >
           Empieza a explorar <Icon name="diagonal" size={17} />
         </a>
@@ -177,7 +199,8 @@ export default function App() {
           <Icon name={menu ? "close" : "menu"} />
         </button>
       </header>
-      <main>
+      {punoActive && <Suspense fallback={<main className="section" aria-busy="true">Preparando Explora Puno…</main>}><PunoExplorer /></Suspense>}
+      <main hidden={punoActive}>
         <HeroCarousel onOpen={setDetail} onExplore={explore} />
         <div className="journey-strip">
           <span>LA CURIOSIDAD ES EL PRIMER PASO</span>
@@ -306,7 +329,7 @@ export default function App() {
                   selected={filters.department}
                   onSelect={selectRegion}
                   counts={counts}
-                  visible={mode === "map"}
+                  visible={mode === "map" && !punoActive}
                 />
               ) : (
                 <div className="map-loading">
@@ -645,7 +668,7 @@ export default function App() {
         </section>
       </main>
       <footer>
-        <a className="brand" href="#inicio">
+        <a className="brand" href={nationalHref(location.href, "inicio")} onClick={e => siteSection(e, "inicio")}>
           <Mark />
           <span>
             Museos <em>del Perú</em>
@@ -657,7 +680,7 @@ export default function App() {
           <br />
           Sin afiliación al Ministerio de Cultura
         </small>
-        <a href="#inicio" className="back-top" aria-label="Volver al inicio">
+        <a href={nationalHref(location.href, "inicio")} className="back-top" aria-label="Volver al inicio" onClick={e => siteSection(e, "inicio")}>
           <Icon name="arrow" />
         </a>
       </footer>

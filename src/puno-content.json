@@ -1,0 +1,1759 @@
+{
+  "provinces": [
+    {
+      "id": "2101",
+      "name": "Puno"
+    },
+    {
+      "id": "2102",
+      "name": "Azángaro"
+    },
+    {
+      "id": "2103",
+      "name": "Carabaya"
+    },
+    {
+      "id": "2104",
+      "name": "Chucuito"
+    },
+    {
+      "id": "2105",
+      "name": "El Collao"
+    },
+    {
+      "id": "2106",
+      "name": "Huancané"
+    },
+    {
+      "id": "2107",
+      "name": "Lampa"
+    },
+    {
+      "id": "2108",
+      "name": "Melgar"
+    },
+    {
+      "id": "2109",
+      "name": "Moho"
+    },
+    {
+      "id": "2110",
+      "name": "San Antonio de Putina"
+    },
+    {
+      "id": "2111",
+      "name": "San Román"
+    },
+    {
+      "id": "2112",
+      "name": "Sandia"
+    },
+    {
+      "id": "2113",
+      "name": "Yunguyo"
+    }
+  ],
+  "places": [
+    {
+      "id": "qelqatani",
+      "name": "Arte rupestre de Qelqatani",
+      "provinceId": "2105",
+      "district": "Santa Rosa",
+      "category": "Arqueología",
+      "description": "Qelqatani es un lugar con arte rupestre del distrito de Santa Rosa, provincia de El Collao. Figura en la documentación turística regional como parte del patrimonio cultural de este sector del altiplano puneño.\n\nLas manifestaciones realizadas sobre las superficies rocosas constituyen el principal motivo de interés del sitio y lo vinculan con el patrimonio rupestre de El Collao.",
+      "sources": [
+        {
+          "label": "Gobierno Regional de Puno · PERTUR al 2021",
+          "url": "https://www.regionpuno.gob.pe/descargas/planes/2013-plan-estrategico-institucional-turismo-pertur-al-2021.pdf"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-057",
+          "src": "/images/puno/qelqatani-pdf-057-1268.webp",
+          "srcSet": "/images/puno/qelqatani-pdf-057-480.webp 480w, /images/puno/qelqatani-pdf-057-960.webp 960w, /images/puno/qelqatani-pdf-057-1268.webp 1268w",
+          "width": 1268,
+          "height": 849,
+          "alt": "Paredes y paneles del abrigo rupestre de Qelqatani",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3840",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 38",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "PDF-058",
+          "src": "/images/puno/qelqatani-pdf-058-1263.webp",
+          "srcSet": "/images/puno/qelqatani-pdf-058-480.webp 480w, /images/puno/qelqatani-pdf-058-960.webp 960w, /images/puno/qelqatani-pdf-058-1263.webp 1263w",
+          "width": 1263,
+          "height": 841,
+          "alt": "Otra escena de figuras rupestres de Qelqatani",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3840",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 39",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    },
+    {
+      "id": "bosque-chijos",
+      "name": "Bosque de piedras de Chijos",
+      "provinceId": "2110",
+      "district": "Putina",
+      "category": "Paisajes naturales",
+      "description": "El bosque de piedras de Chijos ocupa un paisaje rocoso del sector Chijos Bajo, en el distrito de Putina. Sus formaciones se sitúan en un ambiente de puna, acompañado por ichu, yaretas y otras plantas altoandinas. El inventario turístico relaciona estas rocas con la formación geológica Picotani y describe la presencia de materiales de origen volcánico.\n\nLas siluetas permiten reconocer semejanzas con aves, otros animales, rostros y torres. Estas comparaciones cambian según la posición desde la que se observan las rocas y no implican que hayan sido esculpidas por personas. El conjunto reúne diversidad de formas, texturas y relieves en un mismo paisaje, junto al entorno donde también se conservan las manifestaciones rupestres de Chijos.",
+      "sources": [
+        {
+          "label": "MINCETUR · Bosque de piedras de Chijos",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11640"
+        },
+        {
+          "label": "MINCETUR · Pinturas rupestres de Chijos",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11641"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-012",
+          "src": "/images/puno/bosque-chijos-pdf-012-547.webp",
+          "srcSet": "/images/puno/bosque-chijos-pdf-012-480.webp 480w, /images/puno/bosque-chijos-pdf-012-547.webp 547w",
+          "width": 547,
+          "height": 365,
+          "alt": "Formaciones del bosque de piedras de Chijos",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=452013",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 4",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "PDF-013",
+          "src": "/images/puno/bosque-chijos-pdf-013-547.webp",
+          "srcSet": "/images/puno/bosque-chijos-pdf-013-480.webp 480w, /images/puno/bosque-chijos-pdf-013-547.webp 547w",
+          "width": 547,
+          "height": 365,
+          "alt": "Otra perspectiva de las formaciones de Chijos",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=452066",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 5",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    },
+    {
+      "id": "jaylluwa",
+      "name": "Bosque de rocas de Corani (Jaylluwa)",
+      "provinceId": "2103",
+      "district": "Corani",
+      "category": "Paisajes naturales",
+      "description": "El bosque de rocas de Corani, conocido como Jaylluwa, forma parte del paisaje de la provincia de Carabaya. Se desarrolla en un ambiente de puna, entre montañas, quebradas y afloramientos pétreos. MINCETUR lo describe como un conjunto de formas rocosas de distintas alturas, anchuras y perfiles, próximas al curso del río Corani.\n\nSegún el ángulo de observación, algunas siluetas recuerdan personas, animales u objetos. Ese cambio de perspectiva es uno de los rasgos que distinguen al lugar: una misma roca puede ofrecer contornos muy diferentes al recorrer visualmente el conjunto. Los farallones y la amplitud del paisaje permiten apreciar la relación entre las formaciones aisladas y el relieve montañoso que las rodea.",
+      "sources": [
+        {
+          "label": "MINCETUR · Bosque de rocas de Corani (Jaylluwa)",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4111"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-023",
+          "src": "/images/puno/jaylluwa-pdf-023-741.webp",
+          "srcSet": "/images/puno/jaylluwa-pdf-023-480.webp 480w, /images/puno/jaylluwa-pdf-023-741.webp 741w",
+          "width": 741,
+          "height": 497,
+          "alt": "Paisaje del bosque de rocas de Corani, Jaylluwa",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=506069",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 11",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "MIN-473056",
+          "src": "/images/puno/jaylluwa-min-473056-720.webp",
+          "srcSet": "/images/puno/jaylluwa-min-473056-480.webp 480w, /images/puno/jaylluwa-min-473056-720.webp 720w",
+          "width": 720,
+          "height": 459,
+          "alt": "Una formación característica de Jaylluwa y su entorno",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=473056",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 4111",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "sillatira",
+      "name": "Bosque de rocas gótico de Sillatira",
+      "provinceId": "2103",
+      "district": "Corani",
+      "category": "Paisajes naturales",
+      "description": "Sillatira es un bosque de rocas situado en la comunidad de Quelcaya, distrito de Corani, provincia de Carabaya. El paisaje pertenece al ambiente altoandino de puna. Sus formaciones presentan perfiles variados que han dado lugar a comparaciones con edificios, animales y personajes, de ahí su denominación como bosque de rocas gótico.\n\nLa ficha turística menciona, entre otras semejanzas, el caballito de mar, la paloma y la tortuga. El aspecto de cada silueta cambia con el punto de observación y con la disposición de los volúmenes rocosos. Estas formas y las huellas del desgaste de la roca distinguen al conjunto. Su interés es paisajístico y geológico; los nombres figurativos describen parecidos visuales, no esculturas realizadas por personas.",
+      "sources": [
+        {
+          "label": "MINCETUR · Bosque de rocas gótico de Sillatira",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12649"
+        }
+      ],
+      "photos": [
+        {
+          "id": "MIN-511548",
+          "src": "/images/puno/sillatira-min-511548-1600.webp",
+          "srcSet": "/images/puno/sillatira-min-511548-480.webp 480w, /images/puno/sillatira-min-511548-960.webp 960w, /images/puno/sillatira-min-511548-1600.webp 1600w",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Formaciones rocosas de Sillatira",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=511548",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 12649",
+          "sourceLabel": "Procedencia MINCETUR"
+        },
+        {
+          "id": "MIN-511551",
+          "src": "/images/puno/sillatira-min-511551-1203.webp",
+          "srcSet": "/images/puno/sillatira-min-511551-480.webp 480w, /images/puno/sillatira-min-511551-960.webp 960w, /images/puno/sillatira-min-511551-1203.webp 1203w",
+          "width": 1203,
+          "height": 805,
+          "alt": "Detalle de una formación de Sillatira",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=511551",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 12649",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "cancha-cancha",
+      "name": "Cancha Cancha-Asiruni",
+      "provinceId": "2102",
+      "district": "Azángaro",
+      "category": "Arqueología",
+      "description": "Cancha Cancha-Asiruni es un sitio arqueológico del ámbito de Azángaro, en el valle del río Tintiri. Se distingue de la hacienda y del templo de Tintiri, situados al otro lado del río. Las investigaciones describen un montículo con restos de estructuras de piedra y esculturas líticas vinculadas al estilo Pukara.\n\nEntre sus piezas documentadas figura una estela escalonada con un motivo serpentiforme tallado. La fotografía publicada por Tantaleán y Leyva permite reconocer su forma alargada, la esquina escalonada y el relieve conservado sobre una de sus caras.",
+      "sources": [
+        {
+          "label": "IFEA · Tantaleán y Leyva (2011), figura 12",
+          "url": "https://journals.openedition.org/bifea/1449"
+        },
+        {
+          "label": "Penn Museum · Chávez y Mohr Chávez (1970)",
+          "url": "https://www.penn.museum/sites/expedition/newly-discovered-monoliths-from-the-highlands-of-puno-peru/"
+        },
+        {
+          "label": "Ministerio de Cultura · Resolución publicada en SPIJ",
+          "url": "https://spij.minjus.gob.pe/Normas/textos/070509T.pdf"
+        }
+      ],
+      "photos": [
+        {
+          "id": "AZT-001",
+          "src": "/images/puno/cancha-cancha-azt-001-1080.webp",
+          "srcSet": "/images/puno/cancha-cancha-azt-001-480.webp 480w, /images/puno/cancha-cancha-azt-001-960.webp 960w, /images/puno/cancha-cancha-azt-001-1080.webp 1080w",
+          "width": 1080,
+          "height": 1440,
+          "alt": "Estela de piedra y entorno de Cancha Cancha",
+          "author": "Froilan C.Z.",
+          "source": "https://www.facebook.com/azangaroturistico/posts/245004467649945/",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Copia web redimensionada y convertida a WebP; sin recorte, con marcas de agua conservadas.",
+          "correspondence": "user-documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Adjunto del usuario; publicación de Azángaro Turístico",
+          "sourceLabel": "Publicación de Azángaro Turístico",
+          "creditText": "Froilan C.Z. · Azángaro Turístico",
+          "creditInstitution": "Azángaro Turístico"
+        },
+        {
+          "id": "AZT-002",
+          "src": "/images/puno/cancha-cancha-azt-002-1080.webp",
+          "srcSet": "/images/puno/cancha-cancha-azt-002-480.webp 480w, /images/puno/cancha-cancha-azt-002-960.webp 960w, /images/puno/cancha-cancha-azt-002-1080.webp 1080w",
+          "width": 1080,
+          "height": 1092,
+          "alt": "Detalle de relieves en piedra, según la publicación de Azángaro Turístico",
+          "author": "Froilan C.Z.",
+          "source": "https://www.facebook.com/azangaroturistico/posts/245004467649945/",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Copia web redimensionada y convertida a WebP; sin recorte, con marcas de agua conservadas.",
+          "correspondence": "user-documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Adjunto del usuario; publicación de Azángaro Turístico",
+          "sourceLabel": "Publicación de Azángaro Turístico",
+          "creditText": "Froilan C.Z. · Azángaro Turístico",
+          "creditInstitution": "Azángaro Turístico"
+        }
+      ]
+    },
+    {
+      "id": "catacumbas-lampa",
+      "name": "Capilla de La Piedad y osario del templo Santiago Apóstol",
+      "provinceId": "2107",
+      "district": "Lampa",
+      "category": "Patrimonio histórico y religioso",
+      "description": "La capilla de La Piedad y el osario forman parte del templo Santiago Apóstol de Lampa. Su estructura se desarrolla desde el subsuelo y se reconoce por la cúpula que la cubre. El osario conserva restos óseos dispuestos en sus paredes interiores.\n\nEn la parte baja se encuentra la tumba de Enrique Torres Belón. La abertura superior permite observar el interior del osario y la relación entre sus muros curvos y el nivel superior de la capilla. Este espacio arquitectónico y funerario se distingue de las esculturas de La Piedad conservadas en el templo.",
+      "sources": [
+        {
+          "label": "MINCETUR · Capilla de La Piedad y el Osario",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3061"
+        },
+        {
+          "label": "ANDINA · Lampa, la ciudad de las dos piedades",
+          "url": "https://andina.pe/agencia/galeria-lampala-ciudad-las-dos-piedades-4994.aspx"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-035",
+          "src": "/images/puno/catacumbas-lampa-pdf-035-780.webp",
+          "srcSet": "/images/puno/catacumbas-lampa-pdf-035-480.webp 480w, /images/puno/catacumbas-lampa-pdf-035-780.webp 780w",
+          "width": 780,
+          "height": 521,
+          "alt": "Vista del interior del osario de Lampa",
+          "author": "Melina Mejía",
+          "source": "https://andina.pe/agencia/galeria-lampala-ciudad-las-dos-piedades-4994.aspx",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 21",
+          "sourceLabel": "Fuente de contraste",
+          "creditInstitution": "ANDINA"
+        },
+        {
+          "id": "MIN-607755",
+          "src": "/images/puno/catacumbas-lampa-min-607755-1920.webp",
+          "srcSet": "/images/puno/catacumbas-lampa-min-607755-480.webp 480w, /images/puno/catacumbas-lampa-min-607755-960.webp 960w, /images/puno/catacumbas-lampa-min-607755-1920.webp 1920w",
+          "width": 1920,
+          "height": 1276,
+          "alt": "Muros y abertura del osario bajo la capilla",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=607755",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 3061",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "tinajani",
+      "name": "Cañón de Tinajani",
+      "provinceId": "2108",
+      "district": "Ayaviri",
+      "category": "Paisajes naturales",
+      "description": "El cañón de Tinajani se encuentra al sur de Ayaviri, en el entorno de Pacobamba, provincia de Melgar. Su paisaje combina quebradas, farallones y torreones de roca rojiza. Las areniscas y los conglomerados forman capas que se distinguen en las paredes y permiten reconocer la estructura sedimentaria del conjunto.\n\nEl agua, el viento y el desgaste de las rocas han contribuido a modelar un relieve de perfiles variados, entre paredes elevadas y sectores abiertos del valle. MINCETUR e INGEMMET destacan su interés para observar procesos geológicos y comprender el paisaje. Los contrastes entre el fondo del valle, las capas de roca y sus paredes permiten contemplar distintas escalas del conjunto.",
+      "sources": [
+        {
+          "label": "MINCETUR · Cañón de Tinajani",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=462"
+        },
+        {
+          "label": "INGEMMET y Municipalidad Provincial de Melgar · Folleto Cañón Tinajani, p.2",
+          "url": "https://cdn.www.gob.pe/uploads/document/file/1114236/Folleto_Ca%C3%B1on_Tinajani.pdf"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-019",
+          "src": "/images/puno/tinajani-pdf-019-787.webp",
+          "srcSet": "/images/puno/tinajani-pdf-019-480.webp 480w, /images/puno/tinajani-pdf-019-787.webp 787w",
+          "width": 787,
+          "height": 429,
+          "alt": "Torreón y paredes de roca del cañón de Tinajani",
+          "author": null,
+          "source": "https://andina.pe/agencia/galeria-canon-tinajani-tesoro-natural-se-consolida-como-uno-los-grandes-destinos-sudamericanos-para-2026-27646.aspx",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 9",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "ALT-002",
+          "src": "/images/puno/tinajani-alt-002-1920.webp",
+          "srcSet": "/images/puno/tinajani-alt-002-480.webp 480w, /images/puno/tinajani-alt-002-960.webp 960w, /images/puno/tinajani-alt-002-1920.webp 1920w",
+          "width": 1920,
+          "height": 679,
+          "alt": "El paisaje y el curso de agua en Tinajani",
+          "author": "CarlosE Duarte",
+          "source": "https://commons.wikimedia.org/wiki/File:Ca%C3%B1on_de_Tinajani,_Peru_-_panoramio_(1).jpg",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "changes": "Redimensionada y convertida a WebP; sin recorte.",
+          "correspondence": "documented",
+          "quality": "reviewed",
+          "authorization": "licensed"
+        }
+      ]
+    },
+    {
+      "id": "viunchuco",
+      "name": "Cañón de Viunchuco",
+      "provinceId": "2103",
+      "district": "Ayapata",
+      "category": "Paisajes naturales",
+      "description": "El cañón de Viunchuco se encuentra en la comunidad de Hanac Ayllu, sector Levita, del distrito de Ayapata. Forma parte del paisaje de Carabaya, entre los ríos Ayapata y Taype. Sus paredes y afloramientos de arenisca muestran un relieve modelado por la acción del agua y del viento.\n\nLas formaciones reúnen perfiles verticales, superficies erosionadas y volúmenes de distinta altura. Desde sus partes elevadas se aprecia el valle de Ayapata y la transición del paisaje montañoso hacia sectores de mayor vegetación. La ficha de MINCETUR destaca el interés del lugar para conocer las formas del relieve y sus procesos de formación. La roca y el entorno vegetal componen aquí un mismo paisaje natural.",
+      "sources": [
+        {
+          "label": "MINCETUR · Cañón de Viunchuco Ayapata",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13155"
+        }
+      ],
+      "photos": [
+        {
+          "id": "MIN-002",
+          "src": "/images/puno/viunchuco-min-002-1920.webp",
+          "srcSet": "/images/puno/viunchuco-min-002-480.webp 480w, /images/puno/viunchuco-min-002-960.webp 960w, /images/puno/viunchuco-min-002-1920.webp 1920w",
+          "width": 1920,
+          "height": 1280,
+          "alt": "Paredes de arenisca del cañón de Viunchuco",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=552416",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Descarga original MINCETUR, foto 552416",
+          "sourceLabel": "Procedencia MINCETUR"
+        },
+        {
+          "id": "MIN-554351",
+          "src": "/images/puno/viunchuco-min-554351-1040.webp",
+          "srcSet": "/images/puno/viunchuco-min-554351-480.webp 480w, /images/puno/viunchuco-min-554351-960.webp 960w, /images/puno/viunchuco-min-554351-1040.webp 1040w",
+          "width": 1040,
+          "height": 780,
+          "alt": "Panorama de la quebrada y las laderas de Viunchuco",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=554351",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 13155",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "huaynaroque",
+      "name": "Cerro Huayna Roque (Huaynaroque)",
+      "provinceId": "2111",
+      "district": "Juliaca",
+      "category": "Arqueología",
+      "description": "El cerro Huayna Roque, también escrito Huaynarroque, se encuentra en Juliaca, provincia de San Román. Conserva un sitio arqueológico reconocido como Patrimonio Cultural de la Nación. Su presencia forma parte del paisaje de la ciudad, donde también se localizan el anfiteatro y el Cristo Blanco que aparecen en la documentación fotográfica del cerro.\n\nLa Municipalidad de San Román y el Ministerio de Cultura han realizado trabajos de verificación de sus límites e hitos para mejorar la protección del área patrimonial. Esa labor distingue el espacio arqueológico de otros usos del entorno urbano. El valor del cerro reúne su condición de referente del paisaje de Juliaca y la conservación de un patrimonio material que requiere delimitación y cuidado.",
+      "sources": [
+        {
+          "label": "Municipalidad de San Román · Visita técnica a Huayna Roque",
+          "url": "https://www.gob.pe/institucion/munisanroman/noticias/1371337-municipio-de-san-roman-y-mincul-realizan-visita-tecnica-en-el-sitio-arqueologico-huayna-roque"
+        },
+        {
+          "label": "Municipalidad de San Román · Saneamiento físico legal",
+          "url": "https://www.gob.pe/institucion/munisanroman/noticias/1061256-aviso-de-saneamiento-fisico-legal"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-027",
+          "src": "/images/puno/huaynaroque-pdf-027-679.webp",
+          "srcSet": "/images/puno/huaynaroque-pdf-027-480.webp 480w, /images/puno/huaynaroque-pdf-027-679.webp 679w",
+          "width": 679,
+          "height": 452,
+          "alt": "Anfiteatro y cerro Huaynarroque en Juliaca",
+          "author": null,
+          "source": "https://www.gob.pe/institucion/munisanroman/noticias/1371337-municipio-de-san-roman-y-mincul-realizan-visita-tecnica-en-el-sitio-arqueologico-huayna-roque",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 14",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "PDF-029",
+          "src": "/images/puno/huaynaroque-pdf-029-1920.webp",
+          "srcSet": "/images/puno/huaynaroque-pdf-029-480.webp 480w, /images/puno/huaynaroque-pdf-029-960.webp 960w, /images/puno/huaynaroque-pdf-029-1920.webp 1920w",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Monumento del Cristo Blanco en Huaynarroque",
+          "author": null,
+          "source": "https://www.gob.pe/institucion/munisanroman/noticias/1371337-municipio-de-san-roman-y-mincul-realizan-visita-tecnica-en-el-sitio-arqueologico-huayna-roque",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 15",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    },
+    {
+      "id": "calacota",
+      "name": "Chullpa de Calacota",
+      "provinceId": "2105",
+      "district": "Pilcuyo",
+      "category": "Arqueología",
+      "description": "La chullpa de Calacota es una estructura funeraria de piedra situada en la comunidad de Calacota, distrito de Pilcuyo, provincia de El Collao. Su planta es cuadrada y presenta una pequeña entrada en el lado oriental. El edificio se levanta en un terreno ligeramente inclinado del paisaje próximo al Titicaca.\n\nLos bloques rectangulares están ensamblados sin mortero y una cornisa recorre la parte superior del perímetro. En una de las piedras altas se distingue la figura labrada de un puma, documentada en la ficha turística del lugar. La torre reúne así trabajo de cantería y ornamentación en una misma construcción. Su interés reside en esos rasgos materiales, sin dar por confirmados los significados rituales que se han propuesto para ellos.",
+      "sources": [
+        {
+          "label": "MINCETUR · Chullpa de Calacota",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8693"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-063",
+          "src": "/images/puno/calacota-pdf-063-844.webp",
+          "srcSet": "/images/puno/calacota-pdf-063-480.webp 480w, /images/puno/calacota-pdf-063-844.webp 844w",
+          "width": 844,
+          "height": 598,
+          "alt": "Vista general de la chullpa de Calacota",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=651733",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 42",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "PDF-060",
+          "src": "/images/puno/calacota-pdf-060-605.webp",
+          "srcSet": "/images/puno/calacota-pdf-060-480.webp 480w, /images/puno/calacota-pdf-060-605.webp 605w",
+          "width": 605,
+          "height": 302,
+          "alt": "Detalle de la esquina y el relieve de Calacota",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=642537",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 40",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    },
+    {
+      "id": "quenalata",
+      "name": "Chullpas de Queñalata",
+      "provinceId": "2106",
+      "district": "Vilque Chico",
+      "category": "Arqueología",
+      "description": "Las chullpas de Queñalata se encuentran en el distrito de Vilque Chico, provincia de Huancané. Son construcciones funerarias prehispánicas de piedra y barro. Sus plantas cilíndricas y cuadrangulares muestran la diversidad de soluciones arquitectónicas presentes en este conjunto del altiplano.\n\nUna investigación de la Universidad Nacional del Altiplano estudia sus características y su valoración entre los pobladores. El trabajo señala la importancia de la participación comunitaria y de la educación para su conservación. Estas estructuras forman parte del patrimonio arqueológico local; su cuidado permite mantener tanto los restos materiales como el conocimiento sobre ellos, sin dar por demostradas las narraciones que todavía requieren estudio.",
+      "sources": [
+        {
+          "label": "UNAP · Chullpas de Queñalata",
+          "url": "https://repositorio.unap.edu.pe/items/beff655a-1198-403e-8d33-d818aff26a29"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-007",
+          "src": "/images/puno/quenalata-pdf-007-532.webp",
+          "srcSet": "/images/puno/quenalata-pdf-007-480.webp 480w, /images/puno/quenalata-pdf-007-532.webp 532w",
+          "width": 532,
+          "height": 318,
+          "alt": "Chullpas de piedra de Queñalata y su entorno",
+          "author": null,
+          "source": "https://repositorio.unap.edu.pe/items/beff655a-1198-403e-8d33-d818aff26a29",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 2",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "THS-Q101",
+          "src": "/images/puno/quenalata-ths-q101-1072.webp",
+          "srcSet": "/images/puno/quenalata-ths-q101-480.webp 480w, /images/puno/quenalata-ths-q101-960.webp 960w, /images/puno/quenalata-ths-q101-1072.webp 1072w",
+          "width": 1072,
+          "height": 827,
+          "alt": "Detalle del aparejo de una chullpa de Queñalata",
+          "author": "Elizabeth Machaca Mamani (nota «Propia» de la tesis)",
+          "source": "https://repositorio.unap.edu.pe/items/beff655a-1198-403e-8d33-d818aff26a29",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Tesis UNAP de Elizabeth Machaca Mamani, p.101, figura con nota «Propia»",
+          "sourceLabel": "Fuente académica original"
+        }
+      ]
+    },
+    {
+      "id": "pacunasa",
+      "name": "Ciudad Gótica de Pacunasa",
+      "provinceId": "2103",
+      "district": "Macusani",
+      "category": "Paisajes naturales",
+      "description": "La Ciudad Gótica de Pacunasa es un bosque de piedras del distrito de Macusani, en la provincia de Carabaya. Su denominación alude al parecido de sus perfiles con torres y edificios. El conjunto está formado por rocas volcánicas cuyos contornos han sido modificados por procesos de erosión a lo largo del tiempo.\n\nEntre las grandes masas pétreas se forman pasos y espacios que recuerdan un laberinto natural. Otras siluetas sugieren aves, animales o figuras humanas, según la perspectiva del observador. La combinación de esas formas con el paisaje de la cordillera de Carabaya constituye su principal atractivo paisajístico. Se trata de un relieve natural; las semejanzas arquitectónicas no significan que sus torres sean construcciones humanas.",
+      "sources": [
+        {
+          "label": "MINCETUR · Formación rocosa de Pacunasa",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11826"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-022",
+          "src": "/images/puno/pacunasa-pdf-022-1024.webp",
+          "srcSet": "/images/puno/pacunasa-pdf-022-480.webp 480w, /images/puno/pacunasa-pdf-022-960.webp 960w, /images/puno/pacunasa-pdf-022-1024.webp 1024w",
+          "width": 1024,
+          "height": 872,
+          "alt": "Formaciones rocosas de Pacunasa",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=473036",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 11",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "MIN-473037",
+          "src": "/images/puno/pacunasa-min-473037-1920.webp",
+          "srcSet": "/images/puno/pacunasa-min-473037-480.webp 480w, /images/puno/pacunasa-min-473037-960.webp 960w, /images/puno/pacunasa-min-473037-1920.webp 1920w",
+          "width": 1920,
+          "height": 1357,
+          "alt": "Vista cercana de las columnas rocosas de Pacunasa",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=473037",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 11826",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "cutimbo",
+      "name": "Complejo arqueológico de Cutimbo",
+      "provinceId": "2101",
+      "district": "Pichacani",
+      "category": "Arqueología",
+      "description": "Cutimbo es un conjunto funerario prehispánico del distrito de Pichacani, en la provincia de Puno. Sus chullpas se levantan sobre un promontorio delimitado por farallones rocosos. La variedad de torres, de planta circular, cuadrada y rectangular, es uno de los rasgos que definen el paisaje construido del sitio.\n\nLas estructuras muestran distintas formas de trabajar y ensamblar la piedra: desde mamposterías de acabado más irregular hasta grandes bloques labrados. Algunas conservan cornisas, pequeños accesos y relieves de animales documentados por el inventario turístico. El conjunto permite observar la diversidad de la arquitectura funeraria del altiplano y su relación con un emplazamiento elevado, sobre las paredes rocosas que rodean el promontorio.",
+      "sources": [
+        {
+          "label": "MINCETUR · Complejo arqueológico de Cutimbo",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=430"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-040",
+          "src": "/images/puno/cutimbo-pdf-040-1599.webp",
+          "srcSet": "/images/puno/cutimbo-pdf-040-480.webp 480w, /images/puno/cutimbo-pdf-040-960.webp 960w, /images/puno/cutimbo-pdf-040-1599.webp 1599w",
+          "width": 1599,
+          "height": 1200,
+          "alt": "Chullpas del complejo arqueológico de Cutimbo",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=470311",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 26",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "PDF-042",
+          "src": "/images/puno/cutimbo-pdf-042-1600.webp",
+          "srcSet": "/images/puno/cutimbo-pdf-042-480.webp 480w, /images/puno/cutimbo-pdf-042-960.webp 960w, /images/puno/cutimbo-pdf-042-1600.webp 1600w",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Otra toma comprobada de las chullpas de Cutimbo",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=471377",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 28",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    },
+    {
+      "id": "tanka-tanka",
+      "name": "Complejo arqueológico de Tanka Tanka",
+      "provinceId": "2104",
+      "district": "Zepita",
+      "category": "Arqueología",
+      "description": "Tanka Tanka es un conjunto arqueológico del distrito de Zepita, en la provincia de Chucuito. Sus construcciones se apoyan en una formación rocosa elevada sobre el paisaje de la planicie. Las murallas se distribuyen por las laderas y conservan accesos que permiten reconocer distintos sectores del conjunto fortificado.\n\nAdemás de los alineamientos de muros, la documentación de MINCETUR y de la Municipalidad de Zepita describe recintos y construcciones funerarias. Las chullpas presentan plantas cuadradas y circulares, con diferentes soluciones de cubierta. Esa combinación de arquitectura y relieve distingue al lugar: los muros siguen la elevación del terreno y relacionan los espacios interiores con el paisaje abierto que lo rodea.",
+      "sources": [
+        {
+          "label": "MINCETUR · Complejo arqueológico de Tanka Tanka",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=450"
+        },
+        {
+          "label": "Municipalidad Distrital de Zepita · Turismo",
+          "url": "https://www.munizepita.gob.pe/zepita/turismo/"
+        }
+      ],
+      "photos": [
+        {
+          "id": "MIN-503368",
+          "src": "/images/puno/tanka-tanka-min-503368-1600.webp",
+          "srcSet": "/images/puno/tanka-tanka-min-503368-480.webp 480w, /images/puno/tanka-tanka-min-503368-960.webp 960w, /images/puno/tanka-tanka-min-503368-1600.webp 1600w",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Murallas de piedra del complejo de Tanka Tanka",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=503368",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 450",
+          "sourceLabel": "Procedencia MINCETUR"
+        },
+        {
+          "id": "MIN-503419",
+          "src": "/images/puno/tanka-tanka-min-503419-1600.webp",
+          "srcSet": "/images/puno/tanka-tanka-min-503419-480.webp 480w, /images/puno/tanka-tanka-min-503419-960.webp 960w, /images/puno/tanka-tanka-min-503419-1600.webp 1600w",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Espacio interior y muros de Tanka Tanka",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=503419",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 450",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "fosiles-imarrucos",
+      "name": "Fósiles del cerro Imarrucos",
+      "provinceId": "2106",
+      "district": "Taraco",
+      "category": "Paisajes naturales",
+      "description": "El cerro Imarrucos, en el distrito de Taraco, conserva un yacimiento de fósiles marinos en sus afloramientos sedimentarios. Se encuentra en el entorno de Huancollusco, dentro de la provincia de Huancané. Las rocas de su ladera oriental contienen restos de invertebrados que permiten acercarse a la historia natural de este sector del altiplano.\n\nEl inventario de MINCETUR distingue rocas calizas con mayor presencia de fósiles y otros sedimentos cuarcíticos donde son menos abundantes. Entre los restos descritos figuran corales, braquiópodos y trilobites. El interés del lugar combina ese registro paleontológico con el paisaje próximo al Titicaca, sus humedales y las vistas desde la ladera del cerro hacia el entorno lacustre.",
+      "sources": [
+        {
+          "label": "MINCETUR · Fósiles de Taraco",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11827"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-003",
+          "src": "/images/puno/fosiles-imarrucos-pdf-003-521.webp",
+          "srcSet": "/images/puno/fosiles-imarrucos-pdf-003-480.webp 480w, /images/puno/fosiles-imarrucos-pdf-003-521.webp 521w",
+          "width": 521,
+          "height": 397,
+          "alt": "Restos fósiles del cerro Imarrucos",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=474212",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 1",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "MIN-474212",
+          "src": "/images/puno/fosiles-imarrucos-min-474212-526.webp",
+          "srcSet": "/images/puno/fosiles-imarrucos-min-474212-480.webp 480w, /images/puno/fosiles-imarrucos-min-474212-526.webp 526w",
+          "width": 526,
+          "height": 406,
+          "alt": "Detalle de fósiles documentados en Imarrucos",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=474212",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 11827",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "quelccaya",
+      "name": "Glaciar Quelccaya — sector de Corani",
+      "provinceId": "2103",
+      "district": "Corani",
+      "category": "Paisajes naturales",
+      "description": "Quelccaya es un conjunto glaciar de la cordillera del Vilcanota. Esta ficha se refiere al sector documentado desde la comunidad de Quelcaya, en el distrito de Corani, provincia de Carabaya. El hielo, las lagunas de origen glaciar y los afloramientos rocosos forman parte del paisaje altoandino descrito en el inventario turístico.\n\nLa presencia de una extensa superficie de hielo y de agua de origen glaciar distingue este entorno de los bosques de rocas próximos de Corani y Sillatira. Su interés paisajístico se suma al estudio científico de los glaciares andinos. La referencia administrativa corresponde al sector de Corani: no representa una delimitación de toda la masa de hielo ni supone que se encuentre íntegramente dentro del distrito.",
+      "sources": [
+        {
+          "label": "MINCETUR · Glaciar Quelcaya - Corani",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12650"
+        }
+      ],
+      "photos": [
+        {
+          "id": "MIN-001",
+          "src": "/images/puno/quelccaya-min-001-1025.webp",
+          "srcSet": "/images/puno/quelccaya-min-001-480.webp 480w, /images/puno/quelccaya-min-001-960.webp 960w, /images/puno/quelccaya-min-001-1025.webp 1025w",
+          "width": 1025,
+          "height": 773,
+          "alt": "Frente de hielo y rocas del glaciar Quelccaya, sector documentado desde Corani",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=513420",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Descarga original MINCETUR, foto 513420",
+          "sourceLabel": "Procedencia MINCETUR"
+        },
+        {
+          "id": "MIN-513423",
+          "src": "/images/puno/quelccaya-min-513423-1027.webp",
+          "srcSet": "/images/puno/quelccaya-min-513423-480.webp 480w, /images/puno/quelccaya-min-513423-960.webp 960w, /images/puno/quelccaya-min-513423-1027.webp 1027w",
+          "width": 1027,
+          "height": 768,
+          "alt": "Formas y cavidades del frente de hielo de Quelccaya",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=513423",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 12650",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "machu-asillo",
+      "name": "Machu Asillo (Calvario de Asillo)",
+      "provinceId": "2102",
+      "district": "Asillo",
+      "category": "Arqueología",
+      "description": "Machu Asillo, también conocido como Calvario de Asillo, es un conjunto arqueológico ubicado en un cerro del distrito de Asillo. Sus murallas, terrazas y recintos de piedra forman parte del patrimonio de la provincia de Azángaro. Las construcciones aprovechan las laderas y los espacios elevados del terreno.\n\nLa ficha de MINCETUR describe habitaciones de planta rectangular, circular y ovoide, con mampostería de arenisca y barro. Entre los restos se reconocen patios, muros con hornacinas y terrazas delimitadas por estructuras de piedra. La disposición de estos elementos permite apreciar la organización del conjunto sobre el cerro. Desde sus partes altas se contempla el pueblo de Asillo y la amplitud del paisaje altiplánico que lo rodea.",
+      "sources": [
+        {
+          "label": "MINCETUR · Machu Asillo - Calvario de Asillo",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4108"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-031",
+          "src": "/images/puno/machu-asillo-pdf-031-800.webp",
+          "srcSet": "/images/puno/machu-asillo-pdf-031-480.webp 480w, /images/puno/machu-asillo-pdf-031-800.webp 800w",
+          "width": 800,
+          "height": 430,
+          "alt": "Recintos y terrazas de Machu Asillo",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=554030",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 17",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "MIN-554032",
+          "src": "/images/puno/machu-asillo-min-554032-1600.webp",
+          "srcSet": "/images/puno/machu-asillo-min-554032-480.webp 480w, /images/puno/machu-asillo-min-554032-960.webp 960w, /images/puno/machu-asillo-min-554032-1600.webp 1600w",
+          "width": 1600,
+          "height": 901,
+          "alt": "Detalle del aparejo de los muros de Machu Asillo",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=554032",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 4108",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "maukallacta-sandia",
+      "name": "Maukallacta de Sandia",
+      "provinceId": "2112",
+      "district": "Sandia",
+      "category": "Arqueología",
+      "description": "Maukallacta se encuentra en el cerro Apabuco, dentro del distrito y la provincia de Sandia. Es un conjunto arqueológico que reúne construcciones habitacionales, estructuras funerarias y andenerías. La piedra, unida con barro, es el material principal de sus muros, distribuidos sobre distintas partes del cerro.\n\nLa ficha de MINCETUR describe habitaciones circulares y cuadrangulares, algunas con ventanas y divisiones interiores. Las chullpas se sitúan separadas de los recintos habitacionales, en las laderas del sector sur. Terrazas y muros de contención completan una organización adaptada al relieve. Esa relación entre espacios construidos y topografía distingue al conjunto y permite reconocer distintos componentes de la ocupación del cerro.",
+      "sources": [
+        {
+          "label": "MINCETUR · Sitio arqueológico de Maukallacta",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4762"
+        }
+      ],
+      "photos": [
+        {
+          "id": "MIN-383108",
+          "src": "/images/puno/maukallacta-sandia-min-383108-1920.webp",
+          "srcSet": "/images/puno/maukallacta-sandia-min-383108-480.webp 480w, /images/puno/maukallacta-sandia-min-383108-960.webp 960w, /images/puno/maukallacta-sandia-min-383108-1920.webp 1920w",
+          "width": 1920,
+          "height": 1067,
+          "alt": "Paisaje y terrazas de Maukallacta de Sandia",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=383108",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 4762",
+          "sourceLabel": "Procedencia MINCETUR"
+        },
+        {
+          "id": "MIN-537112",
+          "src": "/images/puno/maukallacta-sandia-min-537112-1200.webp",
+          "srcSet": "/images/puno/maukallacta-sandia-min-537112-480.webp 480w, /images/puno/maukallacta-sandia-min-537112-960.webp 960w, /images/puno/maukallacta-sandia-min-537112-1200.webp 1200w",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Vanos y recintos de piedra de Maukallacta de Sandia",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=537112",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 4762",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "monolitos-taraco",
+      "name": "Monolitos y estelas de Taraco",
+      "provinceId": "2106",
+      "district": "Taraco",
+      "category": "Arqueología",
+      "description": "Los monolitos y estelas de Taraco forman parte de la colección lítica municipal de este distrito de Huancané. Son esculturas realizadas en grandes bloques de piedra, vinculadas en el inventario turístico a la cultura Pukará. La colección permite reconocer distintas maneras de representar figuras y organizar motivos sobre la superficie de las piezas.\n\nEntre sus rasgos distintivos están las imágenes talladas y los diseños geométricos que aparecen en una o varias caras de los bloques. Su interés reside tanto en esas representaciones como en el trabajo de la piedra. El conjunto conserva una muestra del patrimonio escultórico del altiplano y de su relación con la arquitectura de los antiguos centros de la región.",
+      "sources": [
+        {
+          "label": "MINCETUR · Museo y monolitos de Taraco",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11828"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-001",
+          "src": "/images/puno/monolitos-taraco-pdf-001-193.webp",
+          "srcSet": "/images/puno/monolitos-taraco-pdf-001-193.webp 193w",
+          "width": 193,
+          "height": 415,
+          "alt": "Monolito de Taraco con motivos tallados en su cara frontal",
+          "author": "Mariolein Sabarte Belacortu",
+          "source": "https://www.casadelcorregidor.pe/colaboraciones/Museoliticotaraco_1.php",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 1",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "PDF-002",
+          "src": "/images/puno/monolitos-taraco-pdf-002-179.webp",
+          "srcSet": "/images/puno/monolitos-taraco-pdf-002-179.webp 179w",
+          "width": 179,
+          "height": 415,
+          "alt": "Otra pieza tallada de la colección lítica de Taraco",
+          "author": "Rainer Hostnig",
+          "source": "https://www.casadelcorregidor.pe/colaboraciones/Museoliticotaraco_1.php",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 1",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    },
+    {
+      "id": "pinturas-chijos",
+      "name": "Pinturas rupestres de Chijos",
+      "provinceId": "2110",
+      "district": "Putina",
+      "category": "Arqueología",
+      "description": "Las pinturas rupestres de Chijos se distribuyen entre abrigos y superficies rocosas del sector Chijos Bajo, en el distrito de Putina. Comparten el paisaje de puna con el bosque de piedras del mismo nombre, dentro de la provincia de San Antonio de Putina. La roca es aquí el soporte de representaciones que complementan el interés natural de las formaciones del entorno.\n\nLa ficha de MINCETUR describe distintos paneles con figuras humanas, animales y motivos geométricos, así como variaciones de color entre los abrigos. Algunos trazos resultan poco visibles por el desgaste de las superficies. Su valor está en la diversidad de esas manifestaciones y en su relación con el paisaje rocoso; sus significados y cronologías requieren una lectura especializada.",
+      "sources": [
+        {
+          "label": "MINCETUR · Pinturas rupestres de Chijos",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11641"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-011",
+          "src": "/images/puno/pinturas-chijos-pdf-011-640.webp",
+          "srcSet": "/images/puno/pinturas-chijos-pdf-011-480.webp 480w, /images/puno/pinturas-chijos-pdf-011-640.webp 640w",
+          "width": 640,
+          "height": 480,
+          "alt": "Panel rupestre de Chijos",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=466120",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 4",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "MIN-466121",
+          "src": "/images/puno/pinturas-chijos-min-466121-1500.webp",
+          "srcSet": "/images/puno/pinturas-chijos-min-466121-480.webp 480w, /images/puno/pinturas-chijos-min-466121-960.webp 960w, /images/puno/pinturas-chijos-min-466121-1500.webp 1500w",
+          "width": 1500,
+          "height": 1125,
+          "alt": "Detalle de figuras del panel rupestre de Chijos",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=466121",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 11641",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "lenzora",
+      "name": "Pinturas rupestres de Lenzora",
+      "provinceId": "2107",
+      "district": "Lampa",
+      "category": "Arqueología",
+      "description": "Lenzora conserva manifestaciones rupestres en un abrigo rocoso del entorno de Lampa. La investigación de la Universidad Nacional del Altiplano sitúa el conjunto entre promontorios de la comunidad de Lenzora, en un paisaje de pajonales vinculado a la cuenca del río Lampa. Las superficies de la cueva reúnen figuras humanas y animales distribuidas en distintos paneles.\n\nLas fotografías de campo de la tesis permiten reconocer trazos de camélidos, figuras antropomorfas y otros motivos sobre la roca. El estudio analiza su conocimiento entre los estudiantes y su importancia para la valoración del patrimonio local. Se conserva la denominación habitual de pinturas rupestres, sin reducir todas las manifestaciones a una única técnica ni presentar como seguras sus interpretaciones o antigüedad.",
+      "sources": [
+        {
+          "label": "UNAP · Conocimiento iconográfico de pinturas de Lenzora",
+          "url": "https://repositorio.unap.edu.pe/items/662379a6-76a2-447c-81c8-ff2be8c6c0dc"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-036",
+          "src": "/images/puno/lenzora-pdf-036-554.webp",
+          "srcSet": "/images/puno/lenzora-pdf-036-480.webp 480w, /images/puno/lenzora-pdf-036-554.webp 554w",
+          "width": 554,
+          "height": 554,
+          "alt": "Detalle de un panel rupestre de Lenzora",
+          "author": null,
+          "source": "https://repositorio.unap.edu.pe/bitstreams/403854b5-9af9-481d-9d0d-b2556b51561b/download",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 22",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "THS-001",
+          "src": "/images/puno/lenzora-ths-001-1112.webp",
+          "srcSet": "/images/puno/lenzora-ths-001-480.webp 480w, /images/puno/lenzora-ths-001-960.webp 960w, /images/puno/lenzora-ths-001-1112.webp 1112w",
+          "width": 1112,
+          "height": 834,
+          "alt": "Otro panel rupestre de Lenzora documentado en la tesis de la UNAP",
+          "author": "Mary Solanchs Quispe Herrera (crédito de la tesis)",
+          "source": "https://repositorio.unap.edu.pe/bitstreams/403854b5-9af9-481d-9d0d-b2556b51561b/download",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Tesis UNAP, p.41, fotografía de campo con pie «Fuente: la investigadora»",
+          "sourceLabel": "Fuente académica original"
+        }
+      ]
+    },
+    {
+      "id": "salcedo",
+      "name": "Pinturas rupestres de Salcedo",
+      "provinceId": "2101",
+      "district": "Puno",
+      "category": "Arqueología",
+      "description": "La rinconada de Salcedo, al sur de la ciudad de Puno, conserva manifestaciones rupestres sobre sus formaciones rocosas. El plan de desarrollo municipal las incluye entre los recursos culturales del distrito y las relaciona con el paisaje próximo al centro poblado de Salcedo.\n\nEl conjunto añade una dimensión rupestre al patrimonio del entorno urbano de Puno. Su interés está en la presencia de estas huellas sobre la roca y en su relación con el paisaje de la rinconada.",
+      "sources": [
+        {
+          "label": "Municipalidad Provincial de Puno · PDC, capítulo 4",
+          "url": "https://www2.congreso.gob.pe/sicr/cendocbib/con3_uibd.nsf/12A9356ABD4E278205257964007642A5/%24FILE/Cap%C3%ADtulo_4.pdf"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-056",
+          "src": "/images/puno/salcedo-pdf-056-1920.webp",
+          "srcSet": "/images/puno/salcedo-pdf-056-480.webp 480w, /images/puno/salcedo-pdf-056-960.webp 960w, /images/puno/salcedo-pdf-056-1920.webp 1920w",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Vista general del abrigo rupestre de Salcedo",
+          "author": null,
+          "source": "https://petroglifossalcedo.blogspot.com/2015/07/descripcion-de-los-petroglifos-de_16.html",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 37",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "CAM-S05",
+          "src": "/images/puno/salcedo-cam-s05-1600.webp",
+          "srcSet": "/images/puno/salcedo-cam-s05-480.webp 480w, /images/puno/salcedo-cam-s05-960.webp 960w, /images/puno/salcedo-cam-s05-1600.webp 1600w",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Detalle de figuras del panel de Salcedo, con intervenciones visibles",
+          "author": null,
+          "source": "https://petroglifossalcedo.blogspot.com/2015/07/descripcion-de-los-petroglifos-de_16.html",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Registro de campo publicado en Los Petroglifos Salcedo Puno; archivo IMG_14072015_084028.jpg",
+          "sourceLabel": "Registro fotográfico de campo"
+        }
+      ]
+    },
+    {
+      "id": "espinal",
+      "name": "Pucará del cerro Espinal",
+      "provinceId": "2111",
+      "district": "Juliaca",
+      "category": "Arqueología",
+      "description": "El Pucará del cerro Espinal es un sitio arqueológico situado en el distrito de Juliaca, provincia de San Román. Su nombre y ubicación figuran en la documentación oficial de protección del patrimonio arqueológico de Puno.\n\nForma parte de los espacios patrimoniales del entorno de Juliaca. La Municipalidad de San Román lo menciona entre los lugares considerados en sus labores de protección y delimitación arqueológica, junto a otros cerros de la ciudad.",
+      "sources": [
+        {
+          "label": "Ministerio de Cultura · Resolución publicada en SPIJ",
+          "url": "https://spij.minjus.gob.pe/Normas/textos/070509T.pdf"
+        },
+        {
+          "label": "Municipalidad de San Román · Visita técnica a Huayna Roque",
+          "url": "https://www.gob.pe/institucion/munisanroman/noticias/1371337-municipio-de-san-roman-y-mincul-realizan-visita-tecnica-en-el-sitio-arqueologico-huayna-roque"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-028",
+          "src": "/images/puno/espinal-pdf-028-1600.webp",
+          "srcSet": "/images/puno/espinal-pdf-028-480.webp 480w, /images/puno/espinal-pdf-028-960.webp 960w, /images/puno/espinal-pdf-028-1600.webp 1600w",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Panorámica del cerro Espinal y el entorno urbano de Juliaca",
+          "author": null,
+          "source": "https://spij.minjus.gob.pe/Normas/textos/070509T.pdf",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 15",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "THS-E18",
+          "src": "/images/puno/espinal-ths-e18-1224.webp",
+          "srcSet": "/images/puno/espinal-ths-e18-480.webp 480w, /images/puno/espinal-ths-e18-960.webp 960w, /images/puno/espinal-ths-e18-1224.webp 1224w",
+          "width": 1224,
+          "height": 971,
+          "alt": "Detalle del talud rocoso del cerro Espinal",
+          "author": null,
+          "source": "https://repositorio.unap.edu.pe/bitstreams/3d474140-559d-4973-a21b-10d9709fb66b/download#page=161",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Tesis UNAP de Fredy Alonso Valeriano Nina, Métodos para el análisis de estabilidad de taludes en roca y su interacción en el cerro Espinal Juliaca (2016), anexo fotográfico, foto 18, p.161",
+          "sourceLabel": "Fuente académica original"
+        }
+      ]
+    },
+    {
+      "id": "puente-lampa",
+      "name": "Puente republicano de Lampa (Cal y Canto)",
+      "provinceId": "2107",
+      "district": "Lampa",
+      "category": "Patrimonio histórico y religioso",
+      "description": "El puente republicano de Lampa, conocido como Cal y Canto, forma parte del patrimonio histórico de la ciudad. Fue construido con piedra y revestimiento de sillares. Su estructura cruzaba el río mediante arcos apoyados en pilares, acompañados por contrafuertes de base triangular que daban una forma característica al conjunto.\n\nLas vistas históricas permiten observar el trabajo de cantería y la relación del puente con el cauce y el paisaje urbano de Lampa. La ficha de MINCETUR registra daños anteriores y el colapso de la estructura en 2022 por el incremento del caudal. Las fotografías del puente intacto se presentan como documentos de su aspecto anterior, sin sugerir que describen su estado actual.",
+      "sources": [
+        {
+          "label": "MINCETUR · Puente republicano de Lampa",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=456"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-033",
+          "src": "/images/puno/puente-lampa-pdf-033-683.webp",
+          "srcSet": "/images/puno/puente-lampa-pdf-033-480.webp 480w, /images/puno/puente-lampa-pdf-033-683.webp 683w",
+          "width": 683,
+          "height": 449,
+          "alt": "Vista histórica del puente de Lampa antes del colapso documentado",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=456",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 19",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "COM-008",
+          "src": "/images/puno/puente-lampa-com-008-1920.webp",
+          "srcSet": "/images/puno/puente-lampa-com-008-480.webp 480w, /images/puno/puente-lampa-com-008-960.webp 960w, /images/puno/puente-lampa-com-008-1920.webp 1920w",
+          "width": 1920,
+          "height": 1280,
+          "alt": "Vista documental del puente de Lampa tras el colapso, fotografiada en 2024",
+          "author": "Carlillasa",
+          "source": "https://commons.wikimedia.org/wiki/File:Puente_colonial_colapsado_en_Lampa,_Puno.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "licensed",
+          "provenance": "Commons: archivo original de Carlillasa, metadatos y licencia conservados en candidatas-commons.json",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    },
+    {
+      "id": "putucos-taraco",
+      "name": "Putucos de Taraco",
+      "provinceId": "2106",
+      "district": "Taraco",
+      "category": "Patrimonio histórico y religioso",
+      "description": "Los putucos son construcciones tradicionales de tierra y pasto presentes en Taraco y otros distritos del altiplano próximo al Titicaca. Se levantan con champas: bloques extraídos del suelo en los que las raíces de los pastos mantienen unida la tierra. Su arquitectura responde a las condiciones de un territorio frío donde la madera y la piedra no siempre están disponibles para construir.\n\nTienen base rectangular y una cubierta que asciende en forma piramidal hasta un vértice central. Sus pequeñas aberturas permiten la ventilación y sus paredes ayudan a conservar el calor. Además de viviendas, se utilizan como espacios para guardar alimentos o proteger animales. El conocimiento de su construcción se transmite entre generaciones y forma parte del patrimonio arquitectónico de las comunidades de la zona.",
+      "sources": [
+        {
+          "label": "MINCETUR · Putucos",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3034"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-005",
+          "src": "/images/puno/putucos-taraco-pdf-005-659.webp",
+          "srcSet": "/images/puno/putucos-taraco-pdf-005-480.webp 480w, /images/puno/putucos-taraco-pdf-005-659.webp 659w",
+          "width": 659,
+          "height": 430,
+          "alt": "Putucos de tierra y pasto en el entorno de Taraco",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=473109",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 2",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "PDF-006",
+          "src": "/images/puno/putucos-taraco-pdf-006-542.webp",
+          "srcSet": "/images/puno/putucos-taraco-pdf-006-480.webp 480w, /images/puno/putucos-taraco-pdf-006-542.webp 542w",
+          "width": 542,
+          "height": 566,
+          "alt": "Interior de un putuco: aparejo y cubierta de bloques de tierra",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3034",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 2",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    },
+    {
+      "id": "qolo-qolo",
+      "name": "Qolo Qolo (Colo Colo)",
+      "provinceId": "2112",
+      "district": "Patambuco",
+      "category": "Arqueología",
+      "description": "Qolo Qolo, también denominado Colo Colo, es un conjunto arqueológico del distrito de Patambuco, provincia de Sandia. Conserva recintos habitacionales y estructuras funerarias distribuidos sobre laderas y terrazas de piedra. El paisaje corresponde a un entorno de ceja de selva, distinto de los espacios más abiertos del altiplano.\n\nLos muros de las viviendas combinan bloques de piedra con barro y presentan divisiones interiores y repisas formadas por lajas salientes. Las chullpas muestran distintas plantas y soluciones de cubierta, con pequeños accesos y espacios de comunicación entre terrazas. La diversidad de estas construcciones de piedra y su adaptación a la pendiente son sus rasgos más reconocibles.",
+      "sources": [
+        {
+          "label": "MINCETUR · Sitio arqueológico de Qolo Qolo",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4760"
+        }
+      ],
+      "photos": [
+        {
+          "id": "MIN-536924",
+          "src": "/images/puno/qolo-qolo-min-536924-1267.webp",
+          "srcSet": "/images/puno/qolo-qolo-min-536924-480.webp 480w, /images/puno/qolo-qolo-min-536924-960.webp 960w, /images/puno/qolo-qolo-min-536924-1267.webp 1267w",
+          "width": 1267,
+          "height": 928,
+          "alt": "Vista general del conjunto de Qolo Qolo en su ladera",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=536924",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 4760",
+          "sourceLabel": "Procedencia MINCETUR"
+        },
+        {
+          "id": "MIN-537020",
+          "src": "/images/puno/qolo-qolo-min-537020-1346.webp",
+          "srcSet": "/images/puno/qolo-qolo-min-537020-480.webp 480w, /images/puno/qolo-qolo-min-537020-960.webp 960w, /images/puno/qolo-qolo-min-537020-1346.webp 1346w",
+          "width": 1346,
+          "height": 898,
+          "alt": "Detalle de una estructura funeraria de Qolo Qolo",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=537020",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 4760",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "piedad-lampa",
+      "name": "Réplicas de La Piedad en Lampa",
+      "provinceId": "2107",
+      "district": "Lampa",
+      "category": "Patrimonio histórico y religioso",
+      "description": "Lampa conserva dos réplicas de La Piedad de Miguel Ángel. Una, de yeso, forma parte del Museo Biblioteca Municipal; la otra, de aluminio, se encuentra en la capilla de La Piedad del templo Santiago Apóstol. Ambas reproducen la composición de María sosteniendo el cuerpo de Cristo, aunque sus materiales y espacios de exhibición son diferentes.\n\nLa réplica blanca del museo permite apreciar los pliegues y las figuras del conjunto escultórico. La del templo está asociada al domo que cubre el osario y la tumba de Enrique Torres Belón. Estas dos presencias relacionan la historia cultural de Lampa con una obra emblemática del arte renacentista, conservada en Roma en su versión original.",
+      "sources": [
+        {
+          "label": "MINCETUR · Museo Biblioteca Municipal de Lampa",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=454"
+        },
+        {
+          "label": "ANDINA · Lampa, la ciudad de las dos piedades",
+          "url": "https://andina.pe/agencia/galeria-lampala-ciudad-las-dos-piedades-4994.aspx"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-034",
+          "src": "/images/puno/piedad-lampa-pdf-034-976.webp",
+          "srcSet": "/images/puno/piedad-lampa-pdf-034-480.webp 480w, /images/puno/piedad-lampa-pdf-034-960.webp 960w, /images/puno/piedad-lampa-pdf-034-976.webp 976w",
+          "width": 976,
+          "height": 549,
+          "alt": "Réplica de aluminio de La Piedad en Lampa",
+          "author": "Melina Mejía (crédito ANDINA)",
+          "source": "https://andina.pe/agencia/galeria-lampala-ciudad-las-dos-piedades-4994.aspx",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 20",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "ALT-009",
+          "src": "/images/puno/piedad-lampa-alt-009-1920.webp",
+          "srcSet": "/images/puno/piedad-lampa-alt-009-480.webp 480w, /images/puno/piedad-lampa-alt-009-960.webp 960w, /images/puno/piedad-lampa-alt-009-1920.webp 1920w",
+          "width": 1920,
+          "height": 1360,
+          "alt": "Réplica de La Piedad en Lampa",
+          "author": "Carlillasa",
+          "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9plica_de_La_Piedad_en_Lampa,_Puno.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "changes": "Redimensionada y convertida a WebP; sin recorte.",
+          "correspondence": "documented",
+          "quality": "reviewed",
+          "authorization": "licensed"
+        }
+      ]
+    },
+    {
+      "id": "inampu",
+      "name": "Sitio arqueológico de Inampu",
+      "provinceId": "2102",
+      "district": "Asillo",
+      "category": "Arqueología",
+      "description": "Inampu es un sitio arqueológico de la comunidad de Jila Retiro, en el distrito de Asillo, provincia de Azángaro. Sus construcciones se reparten entre la cima y las laderas de un cerro. El conjunto reúne chullpas de planta circular, cuadrada y rectangular, levantadas con piedra y lajas superpuestas.\n\nLas torres presentan pequeñas entradas y remates salientes en la parte superior. Además de las estructuras funerarias, la ficha de MINCETUR describe restos de murallas que siguen la forma del cerro, terrazas y recintos. Esa combinación permite observar cómo las construcciones se distribuyen según la topografía. La variedad de plantas y de soluciones de mampostería distingue a Inampu dentro del patrimonio arqueológico de Asillo.",
+      "sources": [
+        {
+          "label": "MINCETUR · Sitio arqueológico de Inampu",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4047"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-030",
+          "src": "/images/puno/inampu-pdf-030-800.webp",
+          "srcSet": "/images/puno/inampu-pdf-030-480.webp 480w, /images/puno/inampu-pdf-030-800.webp 800w",
+          "width": 800,
+          "height": 430,
+          "alt": "Chullpas y recintos del sitio arqueológico de Inampu",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=530883",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 16",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "MIN-298624",
+          "src": "/images/puno/inampu-min-298624-600.webp",
+          "srcSet": "/images/puno/inampu-min-298624-480.webp 480w, /images/puno/inampu-min-298624-600.webp 600w",
+          "width": 600,
+          "height": 450,
+          "alt": "Una chullpa circular en el paisaje de Inampu",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=298624",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 4047",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "molloco",
+      "name": "Sitio arqueológico de Molloco",
+      "provinceId": "2101",
+      "district": "Ácora",
+      "category": "Arqueología",
+      "description": "Molloco es un sitio funerario prehispánico de la comunidad del mismo nombre, en el distrito de Ácora, provincia de Puno. Sus chullpas se distribuyen en la cima y las laderas del cerro Molloco. El conjunto reúne estructuras de planta cuadrangular y circular, construidas con bloques de piedra trabajada.\n\nLos muros muestran la unión de las piezas y pequeños accesos orientados hacia el este. Los bloques trabajados se ajustan con argamasa entre ellos. Las distintas plantas permiten comparar soluciones arquitectónicas dentro de un mismo emplazamiento. La disposición sobre el cerro relaciona las torres con el paisaje de la comunidad y con el patrimonio funerario del altiplano, donde las construcciones cuadrangulares y circulares forman un mismo conjunto.",
+      "sources": [
+        {
+          "label": "MINCETUR · Sitio arqueológico de Molloco",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=419"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-048",
+          "src": "/images/puno/molloco-pdf-048-1230.webp",
+          "srcSet": "/images/puno/molloco-pdf-048-480.webp 480w, /images/puno/molloco-pdf-048-960.webp 960w, /images/puno/molloco-pdf-048-1230.webp 1230w",
+          "width": 1230,
+          "height": 922,
+          "alt": "Chullpas del sitio arqueológico de Molloco",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=298428",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 31",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "PDF-050",
+          "src": "/images/puno/molloco-pdf-050-914.webp",
+          "srcSet": "/images/puno/molloco-pdf-050-480.webp 480w, /images/puno/molloco-pdf-050-914.webp 914w",
+          "width": 914,
+          "height": 857,
+          "alt": "Otra perspectiva del conjunto funerario de Molloco",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=470497",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 33",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    },
+    {
+      "id": "trinchera",
+      "name": "Sitio arqueológico de Trinchera",
+      "provinceId": "2112",
+      "district": "Patambuco",
+      "category": "Arqueología",
+      "description": "El sitio arqueológico de Trinchera ocupa el cerro Pukara, en el distrito de Patambuco, provincia de Sandia. El conjunto conserva recintos de piedra, terrazas, murallas y escalinatas. Sus construcciones se distribuyen en diferentes niveles y aprovechan los espacios disponibles en una topografía marcada por pendientes y afloramientos rocosos.\n\nEn el área habitacional se reconocen plantas circulares y rectangulares, pequeños vanos y elementos de laja en puertas y muros. Las escalinatas conectan sectores del conjunto, mientras las murallas y los perfiles del cerro definen sus bordes. La relación entre los espacios construidos y el relieve es uno de sus rasgos distintivos. Su arquitectura permite apreciar diversas soluciones de organización sobre una ladera montañosa.",
+      "sources": [
+        {
+          "label": "MINCETUR · Sitio arqueológico de Trinchera",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4761"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-039",
+          "src": "/images/puno/trinchera-pdf-039-739.webp",
+          "srcSet": "/images/puno/trinchera-pdf-039-480.webp 480w, /images/puno/trinchera-pdf-039-739.webp 739w",
+          "width": 739,
+          "height": 415,
+          "alt": "Recintos y murallas del sitio arqueológico de Trinchera",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=537078",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 25",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "MIN-537080",
+          "src": "/images/puno/trinchera-min-537080-1412.webp",
+          "srcSet": "/images/puno/trinchera-min-537080-480.webp 480w, /images/puno/trinchera-min-537080-960.webp 960w, /images/puno/trinchera-min-537080-1412.webp 1412w",
+          "width": 1412,
+          "height": 937,
+          "alt": "Detalle de una estructura de laja en Trinchera",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=537080",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "Galería MINCETUR, ficha 4761",
+          "sourceLabel": "Procedencia MINCETUR"
+        }
+      ]
+    },
+    {
+      "id": "inka-uyu",
+      "name": "Sitio arqueológico Inka Uyu",
+      "provinceId": "2101",
+      "district": "Chucuito",
+      "category": "Arqueología",
+      "description": "Inka Uyu es un recinto de piedra situado en la ciudad de Chucuito, junto al templo de Santo Domingo. Conserva una planta cuadrada delimitada por muros de bloques labrados y pulidos. El conjunto forma parte del patrimonio arqueológico de este distrito de la provincia de Puno, en un entorno de larga ocupación histórica.\n\nEl ajuste de las piedras y la disposición de sus hileras permiten apreciar el trabajo de cantería. Los bloques conservados muestran el cuidado de sus superficies y encuentros. Su función original continúa en discusión: la documentación arqueológica recoge distintas interpretaciones y excavaciones, sin establecer una explicación definitiva. El interés del recinto reúne, por tanto, sus características arquitectónicas visibles y las preguntas que todavía plantea su historia.",
+      "sources": [
+        {
+          "label": "MINCETUR · Sitio arqueológico Inka Uyu",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=425"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-070",
+          "src": "/images/puno/inka-uyu-pdf-070-800.webp",
+          "srcSet": "/images/puno/inka-uyu-pdf-070-480.webp 480w, /images/puno/inka-uyu-pdf-070-800.webp 800w",
+          "width": 800,
+          "height": 525,
+          "alt": "Vista general del recinto de Inka Uyu y su entorno",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=425",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 48",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "PDF-072",
+          "src": "/images/puno/inka-uyu-pdf-072-588.webp",
+          "srcSet": "/images/puno/inka-uyu-pdf-072-480.webp 480w, /images/puno/inka-uyu-pdf-072-588.webp 588w",
+          "width": 588,
+          "height": 340,
+          "alt": "Sillares y piedras verticales del interior de Inka Uyu",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=425",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 49",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    },
+    {
+      "id": "santa-barbara",
+      "name": "Templo de Santa Bárbara",
+      "provinceId": "2105",
+      "district": "Ilave",
+      "category": "Patrimonio histórico y religioso",
+      "description": "El templo de Santa Bárbara se encuentra frente a la plaza del mismo nombre, en la ciudad de Ilave, provincia de El Collao. Es una edificación religiosa de piedra cuya historia recoge distintas etapas de construcción y renovación. El inventario turístico describe su origen como templo de una nave y señala el papel de la piedra y la madera en sus elementos arquitectónicos.\n\nSu historia incluye transformaciones en la cubierta, el presbiterio, el coro y los retablos. Estos cambios permiten comprenderlo como una construcción modificada a lo largo del tiempo, vinculada al patrimonio religioso de Ilave. La ficha conserva referencias a sus espacios interiores y a su relación con la plaza, sin que esa descripción histórica certifique el estado actual de cada pieza.",
+      "sources": [
+        {
+          "label": "MINCETUR · Templo de Santa Bárbara",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3475"
+        }
+      ],
+      "photos": [
+        {
+          "id": "PDF-066",
+          "src": "/images/puno/santa-barbara-pdf-066-1280.webp",
+          "srcSet": "/images/puno/santa-barbara-pdf-066-480.webp 480w, /images/puno/santa-barbara-pdf-066-960.webp 960w, /images/puno/santa-barbara-pdf-066-1280.webp 1280w",
+          "width": 1280,
+          "height": 960,
+          "alt": "Fachada del templo de Santa Bárbara en Ilave",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=557168",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 44",
+          "sourceLabel": "Fuente de contraste"
+        },
+        {
+          "id": "PDF-067",
+          "src": "/images/puno/santa-barbara-pdf-067-868.webp",
+          "srcSet": "/images/puno/santa-barbara-pdf-067-480.webp 480w, /images/puno/santa-barbara-pdf-067-868.webp 868w",
+          "width": 868,
+          "height": 1156,
+          "alt": "Altar y espacio interior del templo de Santa Bárbara",
+          "author": null,
+          "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=559910",
+          "license": null,
+          "licenseUrl": null,
+          "changes": "Redimensionada y convertida a WebP; sin recorte ni ampliación.",
+          "correspondence": "documented",
+          "quality": "reviewed-native-size",
+          "authorization": "pending",
+          "provenance": "PDF del equipo, p. 45",
+          "sourceLabel": "Fuente de contraste"
+        }
+      ]
+    }
+  ]
+}

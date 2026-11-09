@@ -1,0 +1,9 @@
+/* Space for the additional Puno entry; every destination remains in the menu. */
+.site-header .nav a[aria-current=page] { color: #efc69e; text-decoration: underline; text-underline-offset: 7px; }
+@media(max-width: 1350px) { .site-header .header-action { display: none; } }
+@media(max-width: 1200px) {
+  .site-header .menu-button { display: block; }
+  .site-header .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 15px 5%; background: #20271f; border-top: 1px solid #c5b89850; box-shadow: 0 12px 20px #16251b20; }
+  .site-header .nav.open { display: flex; flex-direction: column; align-items: stretch; gap: 0; }
+  .site-header .nav a { font-size: 17px; padding: 13px 0; }
+}
